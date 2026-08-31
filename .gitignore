@@ -1,0 +1,11 @@
+# data junction (points at 19TB of local datasets) — never traverse
+data/
+# model checkpoints (~14GB, regenerable from manifests + code)
+runs/**/models/
+# large regenerable caches
+runs/baselines/raw_features.npz
+__pycache__/
+*.pyc
+# internal working docs
+specs/
+paper/

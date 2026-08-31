@@ -1,0 +1,776 @@
+{
+  "n_models": 480,
+  "operations": [
+    "sft",
+    "unlearn",
+    "prune",
+    "quant"
+  ],
+  "task1_presence": [
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "per_op": {
+        "sft": {
+          "auroc": 0.8622857142857143,
+          "f1": 0.8402777777777778
+        },
+        "unlearn": {
+          "auroc": 0.5424768518518519,
+          "f1": 0.0
+        },
+        "prune": {
+          "auroc": 0.6228935185185185,
+          "f1": 0.01652892561983471
+        },
+        "quant": {
+          "auroc": 0.5718518518518518,
+          "f1": 0.0
+        }
+      },
+      "macro_auroc": 0.6498769841269841,
+      "macro_f1": 0.21420167584940314
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "per_op": {
+        "sft": {
+          "auroc": 0.7962767857142857,
+          "f1": 0.7902946273830156
+        },
+        "unlearn": {
+          "auroc": 0.4993634259259259,
+          "f1": 0.10588235294117647
+        },
+        "prune": {
+          "auroc": 0.6169791666666666,
+          "f1": 0.22727272727272727
+        },
+        "quant": {
+          "auroc": 0.6189699074074074,
+          "f1": 0.20253164556962025
+        }
+      },
+      "macro_auroc": 0.6328973214285715,
+      "macro_f1": 0.33149533829163486
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "per_op": {
+        "sft": {
+          "auroc": 0.9878035714285714,
+          "f1": 0.9644128113879004
+        },
+        "unlearn": {
+          "auroc": 0.723587962962963,
+          "f1": 0.47586206896551725
+        },
+        "prune": {
+          "auroc": 0.9994675925925927,
+          "f1": 0.9873417721518988
+        },
+        "quant": {
+          "auroc": 0.9129166666666667,
+          "f1": 0.7169811320754716
+        }
+      },
+      "macro_auroc": 0.9059439484126985,
+      "macro_f1": 0.786149446145197
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "per_op": {
+        "sft": {
+          "auroc": 0.9898035714285713,
+          "f1": 0.9566724436741768
+        },
+        "unlearn": {
+          "auroc": 0.8759374999999999,
+          "f1": 0.43820224719101125
+        },
+        "prune": {
+          "auroc": 1.0,
+          "f1": 0.99581589958159
+        },
+        "quant": {
+          "auroc": 0.9469791666666666,
+          "f1": 0.8059701492537313
+        }
+      },
+      "macro_auroc": 0.9531800595238095,
+      "macro_f1": 0.7991651849251273
+    },
+    {
+      "feature_set": "all_base_free_tda",
+      "classifier": "logreg",
+      "per_op": {
+        "sft": {
+          "auroc": 0.9913571428571428,
+          "f1": 0.9645390070921985
+        },
+        "unlearn": {
+          "auroc": 0.7538194444444444,
+          "f1": 0.5144927536231884
+        },
+        "prune": {
+          "auroc": 0.999375,
+          "f1": 0.9873417721518988
+        },
+        "quant": {
+          "auroc": 0.8950925925925926,
+          "f1": 0.7
+        }
+      },
+      "macro_auroc": 0.909911044973545,
+      "macro_f1": 0.7915933832168214
+    },
+    {
+      "feature_set": "all_base_free_tda",
+      "classifier": "rf",
+      "per_op": {
+        "sft": {
+          "auroc": 0.9924910714285714,
+          "f1": 0.9668411867364747
+        },
+        "unlearn": {
+          "auroc": 0.8664004629629629,
+          "f1": 0.4
+        },
+        "prune": {
+          "auroc": 1.0,
+          "f1": 1.0
+        },
+        "quant": {
+          "auroc": 0.9368171296296296,
+          "f1": 0.8059701492537313
+        }
+      },
+      "macro_auroc": 0.948927166005291,
+      "macro_f1": 0.7932028339975515
+    },
+    {
+      "feature_set": "topology",
+      "classifier": "logreg",
+      "per_op": {
+        "sft": {
+          "auroc": 0.8651964285714285,
+          "f1": 0.8166969147005445
+        },
+        "unlearn": {
+          "auroc": 0.584513888888889,
+          "f1": 0.3288888888888889
+        },
+        "prune": {
+          "auroc": 0.6404629629629629,
+          "f1": 0.40601503759398494
+        },
+        "quant": {
+          "auroc": 0.6212962962962963,
+          "f1": 0.3333333333333333
+        }
+      },
+      "macro_auroc": 0.6778673941798943,
+      "macro_f1": 0.47123354362918785
+    },
+    {
+      "feature_set": "topology",
+      "classifier": "rf",
+      "per_op": {
+        "sft": {
+          "auroc": 0.9123035714285714,
+          "f1": 0.8595600676818951
+        },
+        "unlearn": {
+          "auroc": 0.5637731481481482,
+          "f1": 0.1360544217687075
+        },
+        "prune": {
+          "auroc": 0.6055902777777777,
+          "f1": 0.08571428571428572
+        },
+        "quant": {
+          "auroc": 0.5650925925925925,
+          "f1": 0.07194244604316546
+        }
+      },
+      "macro_auroc": 0.6616898974867724,
+      "macro_f1": 0.28831780530201345
+    },
+    {
+      "feature_set": "delta_ref",
+      "classifier": "logreg",
+      "per_op": {
+        "sft": {
+          "auroc": 1.0,
+          "f1": 1.0
+        },
+        "unlearn": {
+          "auroc": 0.8746296296296296,
+          "f1": 0.5497630331753555
+        },
+        "prune": {
+          "auroc": 1.0,
+          "f1": 1.0
+        },
+        "quant": {
+          "auroc": 0.9778009259259259,
+          "f1": 0.8559322033898306
+        }
+      },
+      "macro_auroc": 0.963107638888889,
+      "macro_f1": 0.8514238091412965
+    },
+    {
+      "feature_set": "delta_ref",
+      "classifier": "rf",
+      "per_op": {
+        "sft": {
+          "auroc": 1.0,
+          "f1": 1.0
+        },
+        "unlearn": {
+          "auroc": 1.0,
+          "f1": 1.0
+        },
+        "prune": {
+          "auroc": 1.0,
+          "f1": 1.0
+        },
+        "quant": {
+          "auroc": 0.9977083333333332,
+          "f1": 0.9752066115702479
+        }
+      },
+      "macro_auroc": 0.9994270833333333,
+      "macro_f1": 0.993801652892562
+    }
+  ],
+  "task2_order": [
+    {
+      "pair_type": "sft/unlearn",
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "accuracy": 0.5875,
+      "accuracy_ci95": [
+        0.5,
+        0.675
+      ]
+    },
+    {
+      "pair_type": "sft/unlearn",
+      "feature_set": "confound",
+      "classifier": "rf",
+      "accuracy": 0.5375,
+      "accuracy_ci95": [
+        0.4375,
+        0.6375
+      ]
+    },
+    {
+      "pair_type": "sft/unlearn",
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "accuracy": 0.9375,
+      "accuracy_ci95": [
+        0.8875,
+        0.9875
+      ]
+    },
+    {
+      "pair_type": "sft/unlearn",
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "accuracy": 0.85,
+      "accuracy_ci95": [
+        0.775,
+        0.925
+      ]
+    },
+    {
+      "pair_type": "sft/unlearn",
+      "feature_set": "all_base_free_tda",
+      "classifier": "logreg",
+      "accuracy": 0.8875,
+      "accuracy_ci95": [
+        0.825,
+        0.95
+      ]
+    },
+    {
+      "pair_type": "sft/unlearn",
+      "feature_set": "all_base_free_tda",
+      "classifier": "rf",
+      "accuracy": 0.8125,
+      "accuracy_ci95": [
+        0.7375,
+        0.8875
+      ]
+    },
+    {
+      "pair_type": "sft/unlearn",
+      "feature_set": "topology",
+      "classifier": "logreg",
+      "accuracy": 0.7125,
+      "accuracy_ci95": [
+        0.625,
+        0.8
+      ]
+    },
+    {
+      "pair_type": "sft/unlearn",
+      "feature_set": "topology",
+      "classifier": "rf",
+      "accuracy": 0.75,
+      "accuracy_ci95": [
+        0.675,
+        0.825
+      ]
+    },
+    {
+      "pair_type": "sft/unlearn",
+      "feature_set": "delta_ref",
+      "classifier": "logreg",
+      "accuracy": 0.9875,
+      "accuracy_ci95": [
+        0.9625,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/unlearn",
+      "feature_set": "delta_ref",
+      "classifier": "rf",
+      "accuracy": 1.0,
+      "accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/prune",
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "accuracy": 0.8,
+      "accuracy_ci95": [
+        0.725,
+        0.875
+      ]
+    },
+    {
+      "pair_type": "sft/prune",
+      "feature_set": "confound",
+      "classifier": "rf",
+      "accuracy": 0.65,
+      "accuracy_ci95": [
+        0.5875,
+        0.725
+      ]
+    },
+    {
+      "pair_type": "sft/prune",
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "accuracy": 0.9875,
+      "accuracy_ci95": [
+        0.9625,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/prune",
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "accuracy": 1.0,
+      "accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/prune",
+      "feature_set": "all_base_free_tda",
+      "classifier": "logreg",
+      "accuracy": 0.9875,
+      "accuracy_ci95": [
+        0.9625,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/prune",
+      "feature_set": "all_base_free_tda",
+      "classifier": "rf",
+      "accuracy": 1.0,
+      "accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/prune",
+      "feature_set": "topology",
+      "classifier": "logreg",
+      "accuracy": 0.675,
+      "accuracy_ci95": [
+        0.5875,
+        0.7625
+      ]
+    },
+    {
+      "pair_type": "sft/prune",
+      "feature_set": "topology",
+      "classifier": "rf",
+      "accuracy": 0.6125,
+      "accuracy_ci95": [
+        0.55,
+        0.675
+      ]
+    },
+    {
+      "pair_type": "sft/prune",
+      "feature_set": "delta_ref",
+      "classifier": "logreg",
+      "accuracy": 1.0,
+      "accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/prune",
+      "feature_set": "delta_ref",
+      "classifier": "rf",
+      "accuracy": 1.0,
+      "accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/quant",
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "accuracy": 0.525,
+      "accuracy_ci95": [
+        0.45,
+        0.6
+      ]
+    },
+    {
+      "pair_type": "sft/quant",
+      "feature_set": "confound",
+      "classifier": "rf",
+      "accuracy": 0.6125,
+      "accuracy_ci95": [
+        0.525,
+        0.7125
+      ]
+    },
+    {
+      "pair_type": "sft/quant",
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "accuracy": 1.0,
+      "accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/quant",
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "accuracy": 1.0,
+      "accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/quant",
+      "feature_set": "all_base_free_tda",
+      "classifier": "logreg",
+      "accuracy": 1.0,
+      "accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/quant",
+      "feature_set": "all_base_free_tda",
+      "classifier": "rf",
+      "accuracy": 1.0,
+      "accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pair_type": "sft/quant",
+      "feature_set": "topology",
+      "classifier": "logreg",
+      "accuracy": 0.3625,
+      "accuracy_ci95": [
+        0.2875,
+        0.4375
+      ]
+    },
+    {
+      "pair_type": "sft/quant",
+      "feature_set": "topology",
+      "classifier": "rf",
+      "accuracy": 0.475,
+      "accuracy_ci95": [
+        0.3875,
+        0.5625
+      ]
+    },
+    {
+      "pair_type": "sft/quant",
+      "feature_set": "delta_ref",
+      "classifier": "logreg",
+      "accuracy": 0.5,
+      "accuracy_ci95": [
+        0.4,
+        0.6
+      ]
+    },
+    {
+      "pair_type": "sft/quant",
+      "feature_set": "delta_ref",
+      "classifier": "rf",
+      "accuracy": 0.4625,
+      "accuracy_ci95": [
+        0.35,
+        0.5628124999999997
+      ]
+    }
+  ],
+  "tda_order_increment": -0.01666666666666668,
+  "task3_leave_composition_out": [
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "per_op": {
+        "sft": {
+          "recall": 0.3,
+          "auroc": null
+        },
+        "unlearn": {
+          "recall": 0.0,
+          "auroc": 0.519921875
+        },
+        "prune": {
+          "recall": 0.0,
+          "auroc": 0.43718749999999995
+        },
+        "quant": {
+          "recall": 0.0,
+          "auroc": 0.562890625
+        }
+      }
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "per_op": {
+        "sft": {
+          "recall": 0.2875,
+          "auroc": null
+        },
+        "unlearn": {
+          "recall": 0.0,
+          "auroc": 0.5060546874999999
+        },
+        "prune": {
+          "recall": 0.0,
+          "auroc": 0.4459765625
+        },
+        "quant": {
+          "recall": 0.0125,
+          "auroc": 0.555546875
+        }
+      }
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "per_op": {
+        "sft": {
+          "recall": 0.8541666666666666,
+          "auroc": null
+        },
+        "unlearn": {
+          "recall": 0.2,
+          "auroc": 0.781875
+        },
+        "prune": {
+          "recall": 0.975,
+          "auroc": 0.99765625
+        },
+        "quant": {
+          "recall": 0.5,
+          "auroc": 0.8709374999999999
+        }
+      }
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "per_op": {
+        "sft": {
+          "recall": 0.5916666666666667,
+          "auroc": null
+        },
+        "unlearn": {
+          "recall": 0.0125,
+          "auroc": 0.7735546875
+        },
+        "prune": {
+          "recall": 0.9875,
+          "auroc": 1.0
+        },
+        "quant": {
+          "recall": 0.5,
+          "auroc": 0.8071875
+        }
+      }
+    },
+    {
+      "feature_set": "all_base_free_tda",
+      "classifier": "logreg",
+      "per_op": {
+        "sft": {
+          "recall": 0.8625,
+          "auroc": null
+        },
+        "unlearn": {
+          "recall": 0.175,
+          "auroc": 0.7666406250000001
+        },
+        "prune": {
+          "recall": 0.975,
+          "auroc": 0.9971874999999999
+        },
+        "quant": {
+          "recall": 0.5,
+          "auroc": 0.8640625000000001
+        }
+      }
+    },
+    {
+      "feature_set": "all_base_free_tda",
+      "classifier": "rf",
+      "per_op": {
+        "sft": {
+          "recall": 0.6166666666666667,
+          "auroc": null
+        },
+        "unlearn": {
+          "recall": 0.0125,
+          "auroc": 0.7216796875
+        },
+        "prune": {
+          "recall": 0.9875,
+          "auroc": 1.0
+        },
+        "quant": {
+          "recall": 0.5,
+          "auroc": 0.7762500000000001
+        }
+      }
+    },
+    {
+      "feature_set": "topology",
+      "classifier": "logreg",
+      "per_op": {
+        "sft": {
+          "recall": 0.6,
+          "auroc": null
+        },
+        "unlearn": {
+          "recall": 0.2,
+          "auroc": 0.542265625
+        },
+        "prune": {
+          "recall": 0.2,
+          "auroc": 0.6355468750000001
+        },
+        "quant": {
+          "recall": 0.0625,
+          "auroc": 0.5687499999999999
+        }
+      }
+    },
+    {
+      "feature_set": "topology",
+      "classifier": "rf",
+      "per_op": {
+        "sft": {
+          "recall": 0.44166666666666665,
+          "auroc": null
+        },
+        "unlearn": {
+          "recall": 0.0125,
+          "auroc": 0.5353515625
+        },
+        "prune": {
+          "recall": 0.0,
+          "auroc": 0.5749609375
+        },
+        "quant": {
+          "recall": 0.0,
+          "auroc": 0.480625
+        }
+      }
+    },
+    {
+      "feature_set": "delta_ref",
+      "classifier": "logreg",
+      "per_op": {
+        "sft": {
+          "recall": 0.9291666666666667,
+          "auroc": null
+        },
+        "unlearn": {
+          "recall": 0.0,
+          "auroc": 0.7621875
+        },
+        "prune": {
+          "recall": 1.0,
+          "auroc": 1.0
+        },
+        "quant": {
+          "recall": 0.0,
+          "auroc": 0.679296875
+        }
+      }
+    },
+    {
+      "feature_set": "delta_ref",
+      "classifier": "rf",
+      "per_op": {
+        "sft": {
+          "recall": 0.9208333333333333,
+          "auroc": null
+        },
+        "unlearn": {
+          "recall": 0.0,
+          "auroc": 0.5441796874999999
+        },
+        "prune": {
+          "recall": 1.0,
+          "auroc": 1.0
+        },
+        "quant": {
+          "recall": 0.0,
+          "auroc": 0.5
+        }
+      }
+    }
+  ]
+}

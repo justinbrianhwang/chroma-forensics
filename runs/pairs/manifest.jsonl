@@ -1,0 +1,280 @@
+{"model_id": "root000_root", "root_group": "root000", "root_seed": 1000, "history": [], "label": "root", "eval_acc": 0.862, "artifact_hash": "a657491ffc4a5279"}
+{"model_id": "root000_sft-unlearn", "root_group": "root000", "root_seed": 1000, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.858, "artifact_hash": "e89fa4e0aba42eae"}
+{"model_id": "root000_unlearn-sft", "root_group": "root000", "root_seed": 1000, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.856, "artifact_hash": "9a3a70b6b185645f"}
+{"model_id": "root000_sft-prune", "root_group": "root000", "root_seed": 1000, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.861, "artifact_hash": "1cd77eba7b4bad56"}
+{"model_id": "root000_prune-sft", "root_group": "root000", "root_seed": 1000, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.854, "artifact_hash": "1b96a70ea6d88991"}
+{"model_id": "root000_sft-quant", "root_group": "root000", "root_seed": 1000, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.852, "artifact_hash": "26005b2348e133b7"}
+{"model_id": "root000_quant-sft", "root_group": "root000", "root_seed": 1000, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.855, "artifact_hash": "a26c6016db8e65ff"}
+{"model_id": "root001_root", "root_group": "root001", "root_seed": 1001, "history": [], "label": "root", "eval_acc": 0.852, "artifact_hash": "1cef525d0eea419d"}
+{"model_id": "root001_sft-unlearn", "root_group": "root001", "root_seed": 1001, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.852, "artifact_hash": "a02e25367b44eb80"}
+{"model_id": "root001_unlearn-sft", "root_group": "root001", "root_seed": 1001, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.85, "artifact_hash": "53d0f6d475694560"}
+{"model_id": "root001_sft-prune", "root_group": "root001", "root_seed": 1001, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.854, "artifact_hash": "ee240a6f01d5138b"}
+{"model_id": "root001_prune-sft", "root_group": "root001", "root_seed": 1001, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.848, "artifact_hash": "dea2369f17216d32"}
+{"model_id": "root001_sft-quant", "root_group": "root001", "root_seed": 1001, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.848, "artifact_hash": "bd23d321a5bc88ea"}
+{"model_id": "root001_quant-sft", "root_group": "root001", "root_seed": 1001, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.847, "artifact_hash": "ac9d10ecf12b3955"}
+{"model_id": "root002_root", "root_group": "root002", "root_seed": 1002, "history": [], "label": "root", "eval_acc": 0.859, "artifact_hash": "63fcb4be9312b3bc"}
+{"model_id": "root002_sft-unlearn", "root_group": "root002", "root_seed": 1002, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.858, "artifact_hash": "355f246ef114cd82"}
+{"model_id": "root002_unlearn-sft", "root_group": "root002", "root_seed": 1002, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.855, "artifact_hash": "08bf12dfa9ec4d8e"}
+{"model_id": "root002_sft-prune", "root_group": "root002", "root_seed": 1002, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.853, "artifact_hash": "c7053c8b1290d686"}
+{"model_id": "root002_prune-sft", "root_group": "root002", "root_seed": 1002, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.852, "artifact_hash": "53bf1f09a9e1a167"}
+{"model_id": "root002_sft-quant", "root_group": "root002", "root_seed": 1002, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.853, "artifact_hash": "ee7e9e055a3164f2"}
+{"model_id": "root002_quant-sft", "root_group": "root002", "root_seed": 1002, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.853, "artifact_hash": "d491b63aaaa0f11d"}
+{"model_id": "root003_root", "root_group": "root003", "root_seed": 1003, "history": [], "label": "root", "eval_acc": 0.863, "artifact_hash": "993b64bad5973244"}
+{"model_id": "root003_sft-unlearn", "root_group": "root003", "root_seed": 1003, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.86, "artifact_hash": "aaea40cc95d98cb5"}
+{"model_id": "root003_unlearn-sft", "root_group": "root003", "root_seed": 1003, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.861, "artifact_hash": "060a92cfc291bd09"}
+{"model_id": "root003_sft-prune", "root_group": "root003", "root_seed": 1003, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.861, "artifact_hash": "ae24fc0a3528ba00"}
+{"model_id": "root003_prune-sft", "root_group": "root003", "root_seed": 1003, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.86, "artifact_hash": "fa8e6c487525a2b6"}
+{"model_id": "root003_sft-quant", "root_group": "root003", "root_seed": 1003, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.859, "artifact_hash": "962c3f8fca9ba9c8"}
+{"model_id": "root003_quant-sft", "root_group": "root003", "root_seed": 1003, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.86, "artifact_hash": "8667d5f19f304d5f"}
+{"model_id": "root004_root", "root_group": "root004", "root_seed": 1004, "history": [], "label": "root", "eval_acc": 0.856, "artifact_hash": "434458014b6a4858"}
+{"model_id": "root004_sft-unlearn", "root_group": "root004", "root_seed": 1004, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.856, "artifact_hash": "9499427edb9667d3"}
+{"model_id": "root004_unlearn-sft", "root_group": "root004", "root_seed": 1004, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.853, "artifact_hash": "d4de4bea882c46a7"}
+{"model_id": "root004_sft-prune", "root_group": "root004", "root_seed": 1004, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.858, "artifact_hash": "f44c9e59144be320"}
+{"model_id": "root004_prune-sft", "root_group": "root004", "root_seed": 1004, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.85, "artifact_hash": "545b0d9dd7b19323"}
+{"model_id": "root004_sft-quant", "root_group": "root004", "root_seed": 1004, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.854, "artifact_hash": "7cd8dc3352b0545c"}
+{"model_id": "root004_quant-sft", "root_group": "root004", "root_seed": 1004, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.853, "artifact_hash": "2961733bf0df6254"}
+{"model_id": "root005_root", "root_group": "root005", "root_seed": 1005, "history": [], "label": "root", "eval_acc": 0.862, "artifact_hash": "ad1330fb2853942b"}
+{"model_id": "root005_sft-unlearn", "root_group": "root005", "root_seed": 1005, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.856, "artifact_hash": "7254e74ee9f00c18"}
+{"model_id": "root005_unlearn-sft", "root_group": "root005", "root_seed": 1005, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.853, "artifact_hash": "b4d4bd6c3f989301"}
+{"model_id": "root005_sft-prune", "root_group": "root005", "root_seed": 1005, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.859, "artifact_hash": "4023760c9200f8b0"}
+{"model_id": "root005_prune-sft", "root_group": "root005", "root_seed": 1005, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.852, "artifact_hash": "4d42891c9ab7bceb"}
+{"model_id": "root005_sft-quant", "root_group": "root005", "root_seed": 1005, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.857, "artifact_hash": "05edb4fd058f9806"}
+{"model_id": "root005_quant-sft", "root_group": "root005", "root_seed": 1005, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.856, "artifact_hash": "0419fcf218f0d08e"}
+{"model_id": "root006_root", "root_group": "root006", "root_seed": 1006, "history": [], "label": "root", "eval_acc": 0.851, "artifact_hash": "c19d9ad2ed2f1f22"}
+{"model_id": "root006_sft-unlearn", "root_group": "root006", "root_seed": 1006, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.845, "artifact_hash": "c7f90690d81a57bf"}
+{"model_id": "root006_unlearn-sft", "root_group": "root006", "root_seed": 1006, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.851, "artifact_hash": "9b3dcd74ef008520"}
+{"model_id": "root006_sft-prune", "root_group": "root006", "root_seed": 1006, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.846, "artifact_hash": "346dc686181560d9"}
+{"model_id": "root006_prune-sft", "root_group": "root006", "root_seed": 1006, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.847, "artifact_hash": "5761bef5cb778007"}
+{"model_id": "root006_sft-quant", "root_group": "root006", "root_seed": 1006, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.845, "artifact_hash": "8db9c4f3dee52d32"}
+{"model_id": "root006_quant-sft", "root_group": "root006", "root_seed": 1006, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.846, "artifact_hash": "9fe1ab1ef3ba0587"}
+{"model_id": "root007_root", "root_group": "root007", "root_seed": 1007, "history": [], "label": "root", "eval_acc": 0.867, "artifact_hash": "554139386a1eb299"}
+{"model_id": "root007_sft-unlearn", "root_group": "root007", "root_seed": 1007, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.864, "artifact_hash": "11a025b0c3550cd2"}
+{"model_id": "root007_unlearn-sft", "root_group": "root007", "root_seed": 1007, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.86, "artifact_hash": "06243c337d104b1e"}
+{"model_id": "root007_sft-prune", "root_group": "root007", "root_seed": 1007, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.867, "artifact_hash": "8891ca0d38f9fba5"}
+{"model_id": "root007_prune-sft", "root_group": "root007", "root_seed": 1007, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.862, "artifact_hash": "75ccc2988cdcf889"}
+{"model_id": "root007_sft-quant", "root_group": "root007", "root_seed": 1007, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.862, "artifact_hash": "35ca0df3f0dcdaae"}
+{"model_id": "root007_quant-sft", "root_group": "root007", "root_seed": 1007, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.859, "artifact_hash": "1b821ea435ccc576"}
+{"model_id": "root008_root", "root_group": "root008", "root_seed": 1008, "history": [], "label": "root", "eval_acc": 0.862, "artifact_hash": "e4498bf91bf0d21a"}
+{"model_id": "root008_sft-unlearn", "root_group": "root008", "root_seed": 1008, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.86, "artifact_hash": "6bf0d74af8da1061"}
+{"model_id": "root008_unlearn-sft", "root_group": "root008", "root_seed": 1008, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.857, "artifact_hash": "92d562f194b8d2ba"}
+{"model_id": "root008_sft-prune", "root_group": "root008", "root_seed": 1008, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.859, "artifact_hash": "41244abf5deb9082"}
+{"model_id": "root008_prune-sft", "root_group": "root008", "root_seed": 1008, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.857, "artifact_hash": "9cd445976545ab99"}
+{"model_id": "root008_sft-quant", "root_group": "root008", "root_seed": 1008, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.856, "artifact_hash": "a8fec3ba7d1d0a66"}
+{"model_id": "root008_quant-sft", "root_group": "root008", "root_seed": 1008, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.857, "artifact_hash": "39cbe94bf7d15b0f"}
+{"model_id": "root009_root", "root_group": "root009", "root_seed": 1009, "history": [], "label": "root", "eval_acc": 0.849, "artifact_hash": "857365ffc103075b"}
+{"model_id": "root009_sft-unlearn", "root_group": "root009", "root_seed": 1009, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.848, "artifact_hash": "e0b79b6cc6f821bd"}
+{"model_id": "root009_unlearn-sft", "root_group": "root009", "root_seed": 1009, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.845, "artifact_hash": "7436a9ea32ba4d7a"}
+{"model_id": "root009_sft-prune", "root_group": "root009", "root_seed": 1009, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.845, "artifact_hash": "98cf8ad0432a2466"}
+{"model_id": "root009_prune-sft", "root_group": "root009", "root_seed": 1009, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.845, "artifact_hash": "79b3590b1612895f"}
+{"model_id": "root009_sft-quant", "root_group": "root009", "root_seed": 1009, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.844, "artifact_hash": "3b4778ec5fdb2967"}
+{"model_id": "root009_quant-sft", "root_group": "root009", "root_seed": 1009, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.842, "artifact_hash": "7280a7413b7432a9"}
+{"model_id": "root010_root", "root_group": "root010", "root_seed": 1010, "history": [], "label": "root", "eval_acc": 0.847, "artifact_hash": "b8ee94cda89f20c0"}
+{"model_id": "root010_sft-unlearn", "root_group": "root010", "root_seed": 1010, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.843, "artifact_hash": "2b741bc4c71597da"}
+{"model_id": "root010_unlearn-sft", "root_group": "root010", "root_seed": 1010, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.839, "artifact_hash": "92fcacb36853cf87"}
+{"model_id": "root010_sft-prune", "root_group": "root010", "root_seed": 1010, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.842, "artifact_hash": "d3afbed8610914a6"}
+{"model_id": "root010_prune-sft", "root_group": "root010", "root_seed": 1010, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.836, "artifact_hash": "45fa35d6c0296957"}
+{"model_id": "root010_sft-quant", "root_group": "root010", "root_seed": 1010, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.841, "artifact_hash": "8bc968323042c770"}
+{"model_id": "root010_quant-sft", "root_group": "root010", "root_seed": 1010, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.839, "artifact_hash": "a54ecbab2a60070c"}
+{"model_id": "root011_root", "root_group": "root011", "root_seed": 1011, "history": [], "label": "root", "eval_acc": 0.862, "artifact_hash": "3e4e570fb88982d8"}
+{"model_id": "root011_sft-unlearn", "root_group": "root011", "root_seed": 1011, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.862, "artifact_hash": "05de47745f7cd069"}
+{"model_id": "root011_unlearn-sft", "root_group": "root011", "root_seed": 1011, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.861, "artifact_hash": "b25597d5e04d6fc2"}
+{"model_id": "root011_sft-prune", "root_group": "root011", "root_seed": 1011, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.86, "artifact_hash": "b4305315c43060f7"}
+{"model_id": "root011_prune-sft", "root_group": "root011", "root_seed": 1011, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.86, "artifact_hash": "5ecac4d17dbdf343"}
+{"model_id": "root011_sft-quant", "root_group": "root011", "root_seed": 1011, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.86, "artifact_hash": "c3e688df608f6f37"}
+{"model_id": "root011_quant-sft", "root_group": "root011", "root_seed": 1011, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.863, "artifact_hash": "a0ac782f1444190a"}
+{"model_id": "root012_root", "root_group": "root012", "root_seed": 1012, "history": [], "label": "root", "eval_acc": 0.865, "artifact_hash": "a0b8fe0ab7bfa250"}
+{"model_id": "root012_sft-unlearn", "root_group": "root012", "root_seed": 1012, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.862, "artifact_hash": "53129a75dd41d042"}
+{"model_id": "root012_unlearn-sft", "root_group": "root012", "root_seed": 1012, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.857, "artifact_hash": "00288fa41556db87"}
+{"model_id": "root012_sft-prune", "root_group": "root012", "root_seed": 1012, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.862, "artifact_hash": "159621e3399e8147"}
+{"model_id": "root012_prune-sft", "root_group": "root012", "root_seed": 1012, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.854, "artifact_hash": "fc98a2b802e8c7ea"}
+{"model_id": "root012_sft-quant", "root_group": "root012", "root_seed": 1012, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.858, "artifact_hash": "9bde8e2505b46ec6"}
+{"model_id": "root012_quant-sft", "root_group": "root012", "root_seed": 1012, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.856, "artifact_hash": "8395dbaf2301cd61"}
+{"model_id": "root013_root", "root_group": "root013", "root_seed": 1013, "history": [], "label": "root", "eval_acc": 0.86, "artifact_hash": "071f9f4bee4efd26"}
+{"model_id": "root013_sft-unlearn", "root_group": "root013", "root_seed": 1013, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.858, "artifact_hash": "20907eb415803cb3"}
+{"model_id": "root013_unlearn-sft", "root_group": "root013", "root_seed": 1013, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.855, "artifact_hash": "9440cba1468f6553"}
+{"model_id": "root013_sft-prune", "root_group": "root013", "root_seed": 1013, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.857, "artifact_hash": "84d3365da31a57f3"}
+{"model_id": "root013_prune-sft", "root_group": "root013", "root_seed": 1013, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.856, "artifact_hash": "cdb16676fa523220"}
+{"model_id": "root013_sft-quant", "root_group": "root013", "root_seed": 1013, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.857, "artifact_hash": "2e19486ca2cee42d"}
+{"model_id": "root013_quant-sft", "root_group": "root013", "root_seed": 1013, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.854, "artifact_hash": "62f09692a6b3a000"}
+{"model_id": "root014_root", "root_group": "root014", "root_seed": 1014, "history": [], "label": "root", "eval_acc": 0.852, "artifact_hash": "aa944ededc5feecf"}
+{"model_id": "root014_sft-unlearn", "root_group": "root014", "root_seed": 1014, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.85, "artifact_hash": "acb5d99dbaab1ae6"}
+{"model_id": "root014_unlearn-sft", "root_group": "root014", "root_seed": 1014, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.844, "artifact_hash": "3fbdce9eeb221db7"}
+{"model_id": "root014_sft-prune", "root_group": "root014", "root_seed": 1014, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.848, "artifact_hash": "74980f7c899343b1"}
+{"model_id": "root014_prune-sft", "root_group": "root014", "root_seed": 1014, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.845, "artifact_hash": "7745a6e4b3ee8d9a"}
+{"model_id": "root014_sft-quant", "root_group": "root014", "root_seed": 1014, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.846, "artifact_hash": "532bfa610f33bf22"}
+{"model_id": "root014_quant-sft", "root_group": "root014", "root_seed": 1014, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.847, "artifact_hash": "f72696e7a6591fd4"}
+{"model_id": "root015_root", "root_group": "root015", "root_seed": 1015, "history": [], "label": "root", "eval_acc": 0.866, "artifact_hash": "e4a83bc86f34280e"}
+{"model_id": "root015_sft-unlearn", "root_group": "root015", "root_seed": 1015, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.863, "artifact_hash": "b21a8d8173e7b807"}
+{"model_id": "root015_unlearn-sft", "root_group": "root015", "root_seed": 1015, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.861, "artifact_hash": "d806d64bccee14d9"}
+{"model_id": "root015_sft-prune", "root_group": "root015", "root_seed": 1015, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.864, "artifact_hash": "7aba51485944a850"}
+{"model_id": "root015_prune-sft", "root_group": "root015", "root_seed": 1015, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.864, "artifact_hash": "edac6e95f71cfe14"}
+{"model_id": "root015_sft-quant", "root_group": "root015", "root_seed": 1015, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.86, "artifact_hash": "cbd328eaed25d3b2"}
+{"model_id": "root015_quant-sft", "root_group": "root015", "root_seed": 1015, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.863, "artifact_hash": "67749cbb2da33cb3"}
+{"model_id": "root016_root", "root_group": "root016", "root_seed": 1016, "history": [], "label": "root", "eval_acc": 0.857, "artifact_hash": "7b66fb9611d53b12"}
+{"model_id": "root016_sft-unlearn", "root_group": "root016", "root_seed": 1016, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.853, "artifact_hash": "c470b57e0c494576"}
+{"model_id": "root016_unlearn-sft", "root_group": "root016", "root_seed": 1016, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.852, "artifact_hash": "4a32ae3d0f3a133b"}
+{"model_id": "root016_sft-prune", "root_group": "root016", "root_seed": 1016, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.858, "artifact_hash": "d6e79768d6543524"}
+{"model_id": "root016_prune-sft", "root_group": "root016", "root_seed": 1016, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.854, "artifact_hash": "9a7d34d9ea63835e"}
+{"model_id": "root016_sft-quant", "root_group": "root016", "root_seed": 1016, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.854, "artifact_hash": "bef268a9c594058f"}
+{"model_id": "root016_quant-sft", "root_group": "root016", "root_seed": 1016, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.853, "artifact_hash": "0bf31b19e29705e3"}
+{"model_id": "root017_root", "root_group": "root017", "root_seed": 1017, "history": [], "label": "root", "eval_acc": 0.87, "artifact_hash": "12b99c13f8cf03d0"}
+{"model_id": "root017_sft-unlearn", "root_group": "root017", "root_seed": 1017, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.868, "artifact_hash": "00c82de10ed5b4df"}
+{"model_id": "root017_unlearn-sft", "root_group": "root017", "root_seed": 1017, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.864, "artifact_hash": "845a3d22ec75d2a3"}
+{"model_id": "root017_sft-prune", "root_group": "root017", "root_seed": 1017, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.871, "artifact_hash": "08818ea288b4de53"}
+{"model_id": "root017_prune-sft", "root_group": "root017", "root_seed": 1017, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.864, "artifact_hash": "dd1379962703b2a9"}
+{"model_id": "root017_sft-quant", "root_group": "root017", "root_seed": 1017, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.862, "artifact_hash": "a90abcf153c95677"}
+{"model_id": "root017_quant-sft", "root_group": "root017", "root_seed": 1017, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.866, "artifact_hash": "b9e92dd19c59b30f"}
+{"model_id": "root018_root", "root_group": "root018", "root_seed": 1018, "history": [], "label": "root", "eval_acc": 0.871, "artifact_hash": "3d98a07910bf29b3"}
+{"model_id": "root018_sft-unlearn", "root_group": "root018", "root_seed": 1018, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.864, "artifact_hash": "75687eb07687c4f2"}
+{"model_id": "root018_unlearn-sft", "root_group": "root018", "root_seed": 1018, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.868, "artifact_hash": "328216a9e262f750"}
+{"model_id": "root018_sft-prune", "root_group": "root018", "root_seed": 1018, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.866, "artifact_hash": "7799f45fdfc6a009"}
+{"model_id": "root018_prune-sft", "root_group": "root018", "root_seed": 1018, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.864, "artifact_hash": "fa98090161e45ff4"}
+{"model_id": "root018_sft-quant", "root_group": "root018", "root_seed": 1018, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.865, "artifact_hash": "f3580c713e652272"}
+{"model_id": "root018_quant-sft", "root_group": "root018", "root_seed": 1018, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.867, "artifact_hash": "070eabc5dfd4e89c"}
+{"model_id": "root019_root", "root_group": "root019", "root_seed": 1019, "history": [], "label": "root", "eval_acc": 0.866, "artifact_hash": "81840c7f0c254fa3"}
+{"model_id": "root019_sft-unlearn", "root_group": "root019", "root_seed": 1019, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.863, "artifact_hash": "721a650a58f9a655"}
+{"model_id": "root019_unlearn-sft", "root_group": "root019", "root_seed": 1019, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.862, "artifact_hash": "e04c542b3cca62fa"}
+{"model_id": "root019_sft-prune", "root_group": "root019", "root_seed": 1019, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.864, "artifact_hash": "ef365b9288cb6d1e"}
+{"model_id": "root019_prune-sft", "root_group": "root019", "root_seed": 1019, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.864, "artifact_hash": "269a41aeed74ff6d"}
+{"model_id": "root019_sft-quant", "root_group": "root019", "root_seed": 1019, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.862, "artifact_hash": "d319880098b5af3a"}
+{"model_id": "root019_quant-sft", "root_group": "root019", "root_seed": 1019, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.857, "artifact_hash": "4e0aa2f777a551ea"}
+{"model_id": "root020_root", "root_group": "root020", "root_seed": 1020, "history": [], "label": "root", "eval_acc": 0.862, "artifact_hash": "52f3b76e183265ee"}
+{"model_id": "root020_sft-unlearn", "root_group": "root020", "root_seed": 1020, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.861, "artifact_hash": "13c826dd618512dd"}
+{"model_id": "root020_unlearn-sft", "root_group": "root020", "root_seed": 1020, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.856, "artifact_hash": "b08531bfc4e8ee6c"}
+{"model_id": "root020_sft-prune", "root_group": "root020", "root_seed": 1020, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.861, "artifact_hash": "8e1233306339320f"}
+{"model_id": "root020_prune-sft", "root_group": "root020", "root_seed": 1020, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.858, "artifact_hash": "6715baa36ee44414"}
+{"model_id": "root020_sft-quant", "root_group": "root020", "root_seed": 1020, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.858, "artifact_hash": "c539490878d64a60"}
+{"model_id": "root020_quant-sft", "root_group": "root020", "root_seed": 1020, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.859, "artifact_hash": "3a71ef907ce3a5ef"}
+{"model_id": "root021_root", "root_group": "root021", "root_seed": 1021, "history": [], "label": "root", "eval_acc": 0.849, "artifact_hash": "cb255a081a159beb"}
+{"model_id": "root021_sft-unlearn", "root_group": "root021", "root_seed": 1021, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.85, "artifact_hash": "ae79fbe722ca285f"}
+{"model_id": "root021_unlearn-sft", "root_group": "root021", "root_seed": 1021, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.843, "artifact_hash": "410d7188c81e786d"}
+{"model_id": "root021_sft-prune", "root_group": "root021", "root_seed": 1021, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.849, "artifact_hash": "4fa5f4214b72cadd"}
+{"model_id": "root021_prune-sft", "root_group": "root021", "root_seed": 1021, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.847, "artifact_hash": "f9b1d93dabeed974"}
+{"model_id": "root021_sft-quant", "root_group": "root021", "root_seed": 1021, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.848, "artifact_hash": "8377adddedef0486"}
+{"model_id": "root021_quant-sft", "root_group": "root021", "root_seed": 1021, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.848, "artifact_hash": "3be402d498eba23c"}
+{"model_id": "root022_root", "root_group": "root022", "root_seed": 1022, "history": [], "label": "root", "eval_acc": 0.863, "artifact_hash": "d69d76100d9e085d"}
+{"model_id": "root022_sft-unlearn", "root_group": "root022", "root_seed": 1022, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.859, "artifact_hash": "45a8f4a3f246d595"}
+{"model_id": "root022_unlearn-sft", "root_group": "root022", "root_seed": 1022, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.854, "artifact_hash": "9750417226e1f0f1"}
+{"model_id": "root022_sft-prune", "root_group": "root022", "root_seed": 1022, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.859, "artifact_hash": "b099c6fc77e0123c"}
+{"model_id": "root022_prune-sft", "root_group": "root022", "root_seed": 1022, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.858, "artifact_hash": "2cd1b565ad9f86bb"}
+{"model_id": "root022_sft-quant", "root_group": "root022", "root_seed": 1022, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.855, "artifact_hash": "240f534bd2afb501"}
+{"model_id": "root022_quant-sft", "root_group": "root022", "root_seed": 1022, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.856, "artifact_hash": "4eb4a6c1a665a142"}
+{"model_id": "root023_root", "root_group": "root023", "root_seed": 1023, "history": [], "label": "root", "eval_acc": 0.874, "artifact_hash": "7cb704b3d1edeb3f"}
+{"model_id": "root023_sft-unlearn", "root_group": "root023", "root_seed": 1023, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.869, "artifact_hash": "5893448fbebd13f4"}
+{"model_id": "root023_unlearn-sft", "root_group": "root023", "root_seed": 1023, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.869, "artifact_hash": "db1474fe16076657"}
+{"model_id": "root023_sft-prune", "root_group": "root023", "root_seed": 1023, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.871, "artifact_hash": "c142df0ccc18faa2"}
+{"model_id": "root023_prune-sft", "root_group": "root023", "root_seed": 1023, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.871, "artifact_hash": "f4acc6d6fdae1b2e"}
+{"model_id": "root023_sft-quant", "root_group": "root023", "root_seed": 1023, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.869, "artifact_hash": "023693b045ecfb6e"}
+{"model_id": "root023_quant-sft", "root_group": "root023", "root_seed": 1023, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.866, "artifact_hash": "65c61eee28791208"}
+{"model_id": "root024_root", "root_group": "root024", "root_seed": 1024, "history": [], "label": "root", "eval_acc": 0.864, "artifact_hash": "fbda921d57cb298d"}
+{"model_id": "root024_sft-unlearn", "root_group": "root024", "root_seed": 1024, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.861, "artifact_hash": "66805c691975e6fb"}
+{"model_id": "root024_unlearn-sft", "root_group": "root024", "root_seed": 1024, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.86, "artifact_hash": "8f9704c8e2b8fe6e"}
+{"model_id": "root024_sft-prune", "root_group": "root024", "root_seed": 1024, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.865, "artifact_hash": "1bbdcd29d796307a"}
+{"model_id": "root024_prune-sft", "root_group": "root024", "root_seed": 1024, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.861, "artifact_hash": "6a75fd82d8874c3e"}
+{"model_id": "root024_sft-quant", "root_group": "root024", "root_seed": 1024, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.864, "artifact_hash": "37d3e3ed33468454"}
+{"model_id": "root024_quant-sft", "root_group": "root024", "root_seed": 1024, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.857, "artifact_hash": "c1f71734e80e17b8"}
+{"model_id": "root025_root", "root_group": "root025", "root_seed": 1025, "history": [], "label": "root", "eval_acc": 0.861, "artifact_hash": "9f119030e0c4392b"}
+{"model_id": "root025_sft-unlearn", "root_group": "root025", "root_seed": 1025, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.861, "artifact_hash": "61df08d6e2fdb8e2"}
+{"model_id": "root025_unlearn-sft", "root_group": "root025", "root_seed": 1025, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.859, "artifact_hash": "f1d7f312963ec8cf"}
+{"model_id": "root025_sft-prune", "root_group": "root025", "root_seed": 1025, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.862, "artifact_hash": "c6b00ab1cd0b00c2"}
+{"model_id": "root025_prune-sft", "root_group": "root025", "root_seed": 1025, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.862, "artifact_hash": "4cdd02eff2598cd1"}
+{"model_id": "root025_sft-quant", "root_group": "root025", "root_seed": 1025, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.858, "artifact_hash": "efaf809ec8b9f5ad"}
+{"model_id": "root025_quant-sft", "root_group": "root025", "root_seed": 1025, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.857, "artifact_hash": "021643cbc3a6e4dc"}
+{"model_id": "root026_root", "root_group": "root026", "root_seed": 1026, "history": [], "label": "root", "eval_acc": 0.863, "artifact_hash": "161ac2e67ae8772a"}
+{"model_id": "root026_sft-unlearn", "root_group": "root026", "root_seed": 1026, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.862, "artifact_hash": "7add8c92de3df3a1"}
+{"model_id": "root026_unlearn-sft", "root_group": "root026", "root_seed": 1026, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.856, "artifact_hash": "972d391d81ac1332"}
+{"model_id": "root026_sft-prune", "root_group": "root026", "root_seed": 1026, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.863, "artifact_hash": "a6d991a24af24b7d"}
+{"model_id": "root026_prune-sft", "root_group": "root026", "root_seed": 1026, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.858, "artifact_hash": "f086763bffcb467f"}
+{"model_id": "root026_sft-quant", "root_group": "root026", "root_seed": 1026, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.859, "artifact_hash": "9e8909d0b8255a22"}
+{"model_id": "root026_quant-sft", "root_group": "root026", "root_seed": 1026, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.859, "artifact_hash": "e96cd2b9e1a0ddc8"}
+{"model_id": "root027_root", "root_group": "root027", "root_seed": 1027, "history": [], "label": "root", "eval_acc": 0.864, "artifact_hash": "b369267d975309c1"}
+{"model_id": "root027_sft-unlearn", "root_group": "root027", "root_seed": 1027, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.861, "artifact_hash": "ee3f4a9da7a5eed0"}
+{"model_id": "root027_unlearn-sft", "root_group": "root027", "root_seed": 1027, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.86, "artifact_hash": "25dec906ec3780d1"}
+{"model_id": "root027_sft-prune", "root_group": "root027", "root_seed": 1027, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.863, "artifact_hash": "56ecf42550398374"}
+{"model_id": "root027_prune-sft", "root_group": "root027", "root_seed": 1027, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.858, "artifact_hash": "f09ae0d061ab19f5"}
+{"model_id": "root027_sft-quant", "root_group": "root027", "root_seed": 1027, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.857, "artifact_hash": "65b1eccf98a0b0f2"}
+{"model_id": "root027_quant-sft", "root_group": "root027", "root_seed": 1027, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.861, "artifact_hash": "ea31f9f8a6397dc6"}
+{"model_id": "root028_root", "root_group": "root028", "root_seed": 1028, "history": [], "label": "root", "eval_acc": 0.844, "artifact_hash": "b81cadebfff0662c"}
+{"model_id": "root028_sft-unlearn", "root_group": "root028", "root_seed": 1028, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.841, "artifact_hash": "d53a2fd66077a7c1"}
+{"model_id": "root028_unlearn-sft", "root_group": "root028", "root_seed": 1028, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.838, "artifact_hash": "4446397c332274f4"}
+{"model_id": "root028_sft-prune", "root_group": "root028", "root_seed": 1028, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.843, "artifact_hash": "283863d943475add"}
+{"model_id": "root028_prune-sft", "root_group": "root028", "root_seed": 1028, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.837, "artifact_hash": "64bcd45b956c6103"}
+{"model_id": "root028_sft-quant", "root_group": "root028", "root_seed": 1028, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.841, "artifact_hash": "caf388bbcdc682ad"}
+{"model_id": "root028_quant-sft", "root_group": "root028", "root_seed": 1028, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.836, "artifact_hash": "854fd0e1b69c2a85"}
+{"model_id": "root029_root", "root_group": "root029", "root_seed": 1029, "history": [], "label": "root", "eval_acc": 0.859, "artifact_hash": "78d94e55aeb75cc9"}
+{"model_id": "root029_sft-unlearn", "root_group": "root029", "root_seed": 1029, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.854, "artifact_hash": "91fa5802f4b04a3c"}
+{"model_id": "root029_unlearn-sft", "root_group": "root029", "root_seed": 1029, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.854, "artifact_hash": "b4e6731d1521c340"}
+{"model_id": "root029_sft-prune", "root_group": "root029", "root_seed": 1029, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.857, "artifact_hash": "df3ab9b10b2ef9ce"}
+{"model_id": "root029_prune-sft", "root_group": "root029", "root_seed": 1029, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.857, "artifact_hash": "5f2df6d60e9ad956"}
+{"model_id": "root029_sft-quant", "root_group": "root029", "root_seed": 1029, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.852, "artifact_hash": "0d448772b13bb864"}
+{"model_id": "root029_quant-sft", "root_group": "root029", "root_seed": 1029, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.852, "artifact_hash": "53d28972ad2f15fa"}
+{"model_id": "root030_root", "root_group": "root030", "root_seed": 1030, "history": [], "label": "root", "eval_acc": 0.869, "artifact_hash": "ce5a9572a729c9c5"}
+{"model_id": "root030_sft-unlearn", "root_group": "root030", "root_seed": 1030, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.865, "artifact_hash": "922599e4bb9e5af9"}
+{"model_id": "root030_unlearn-sft", "root_group": "root030", "root_seed": 1030, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.863, "artifact_hash": "03cfa37c3662e29b"}
+{"model_id": "root030_sft-prune", "root_group": "root030", "root_seed": 1030, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.865, "artifact_hash": "fc415b9934a052e0"}
+{"model_id": "root030_prune-sft", "root_group": "root030", "root_seed": 1030, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.865, "artifact_hash": "cdb3db52e26614ec"}
+{"model_id": "root030_sft-quant", "root_group": "root030", "root_seed": 1030, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.862, "artifact_hash": "06e5ad9030713c6b"}
+{"model_id": "root030_quant-sft", "root_group": "root030", "root_seed": 1030, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.865, "artifact_hash": "79725199761d5f31"}
+{"model_id": "root031_root", "root_group": "root031", "root_seed": 1031, "history": [], "label": "root", "eval_acc": 0.852, "artifact_hash": "437bf12a1ad11a56"}
+{"model_id": "root031_sft-unlearn", "root_group": "root031", "root_seed": 1031, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.852, "artifact_hash": "f75ee25d18fc9b7e"}
+{"model_id": "root031_unlearn-sft", "root_group": "root031", "root_seed": 1031, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.851, "artifact_hash": "5218392b16ca2962"}
+{"model_id": "root031_sft-prune", "root_group": "root031", "root_seed": 1031, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.853, "artifact_hash": "fa35765616bd9eb3"}
+{"model_id": "root031_prune-sft", "root_group": "root031", "root_seed": 1031, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.847, "artifact_hash": "4604ed2f43d21bc8"}
+{"model_id": "root031_sft-quant", "root_group": "root031", "root_seed": 1031, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.849, "artifact_hash": "3258008b3e27c3ce"}
+{"model_id": "root031_quant-sft", "root_group": "root031", "root_seed": 1031, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.848, "artifact_hash": "f1b9471bd7ea4991"}
+{"model_id": "root032_root", "root_group": "root032", "root_seed": 1032, "history": [], "label": "root", "eval_acc": 0.861, "artifact_hash": "7179df30fc93fb84"}
+{"model_id": "root032_sft-unlearn", "root_group": "root032", "root_seed": 1032, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.857, "artifact_hash": "499aadd02b3e34de"}
+{"model_id": "root032_unlearn-sft", "root_group": "root032", "root_seed": 1032, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.855, "artifact_hash": "a0358f0a471b875a"}
+{"model_id": "root032_sft-prune", "root_group": "root032", "root_seed": 1032, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.857, "artifact_hash": "446c33a382b842bb"}
+{"model_id": "root032_prune-sft", "root_group": "root032", "root_seed": 1032, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.855, "artifact_hash": "2baa02340707c224"}
+{"model_id": "root032_sft-quant", "root_group": "root032", "root_seed": 1032, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.855, "artifact_hash": "6c7978c40d460c7f"}
+{"model_id": "root032_quant-sft", "root_group": "root032", "root_seed": 1032, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.855, "artifact_hash": "d4d154a39f27e47c"}
+{"model_id": "root033_root", "root_group": "root033", "root_seed": 1033, "history": [], "label": "root", "eval_acc": 0.853, "artifact_hash": "6a15fedefd5012a0"}
+{"model_id": "root033_sft-unlearn", "root_group": "root033", "root_seed": 1033, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.853, "artifact_hash": "df9095704c798ada"}
+{"model_id": "root033_unlearn-sft", "root_group": "root033", "root_seed": 1033, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.852, "artifact_hash": "c8f7d34aaaeb3f62"}
+{"model_id": "root033_sft-prune", "root_group": "root033", "root_seed": 1033, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.856, "artifact_hash": "e2fd8429b10467e3"}
+{"model_id": "root033_prune-sft", "root_group": "root033", "root_seed": 1033, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.85, "artifact_hash": "36460a25771d13be"}
+{"model_id": "root033_sft-quant", "root_group": "root033", "root_seed": 1033, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.85, "artifact_hash": "183e003a1105b617"}
+{"model_id": "root033_quant-sft", "root_group": "root033", "root_seed": 1033, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.852, "artifact_hash": "ed83080d8b9774ea"}
+{"model_id": "root034_root", "root_group": "root034", "root_seed": 1034, "history": [], "label": "root", "eval_acc": 0.867, "artifact_hash": "f6cbc2378df43eac"}
+{"model_id": "root034_sft-unlearn", "root_group": "root034", "root_seed": 1034, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.865, "artifact_hash": "45a414c84873c3ad"}
+{"model_id": "root034_unlearn-sft", "root_group": "root034", "root_seed": 1034, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.863, "artifact_hash": "36a78c464be4e6dc"}
+{"model_id": "root034_sft-prune", "root_group": "root034", "root_seed": 1034, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.866, "artifact_hash": "a324f586ad6f32a1"}
+{"model_id": "root034_prune-sft", "root_group": "root034", "root_seed": 1034, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.862, "artifact_hash": "6b9b6cf99fc47c16"}
+{"model_id": "root034_sft-quant", "root_group": "root034", "root_seed": 1034, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.862, "artifact_hash": "75cbcc234391717b"}
+{"model_id": "root034_quant-sft", "root_group": "root034", "root_seed": 1034, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.865, "artifact_hash": "bb4c510798cc09f5"}
+{"model_id": "root035_root", "root_group": "root035", "root_seed": 1035, "history": [], "label": "root", "eval_acc": 0.866, "artifact_hash": "d9a33d2089a10246"}
+{"model_id": "root035_sft-unlearn", "root_group": "root035", "root_seed": 1035, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.864, "artifact_hash": "9cf4cc5c16294659"}
+{"model_id": "root035_unlearn-sft", "root_group": "root035", "root_seed": 1035, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.86, "artifact_hash": "bf71927a509baddb"}
+{"model_id": "root035_sft-prune", "root_group": "root035", "root_seed": 1035, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.868, "artifact_hash": "5c0c59cf1ececd20"}
+{"model_id": "root035_prune-sft", "root_group": "root035", "root_seed": 1035, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.862, "artifact_hash": "33e82e2062ce6243"}
+{"model_id": "root035_sft-quant", "root_group": "root035", "root_seed": 1035, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.864, "artifact_hash": "301852d977d2f9d2"}
+{"model_id": "root035_quant-sft", "root_group": "root035", "root_seed": 1035, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.865, "artifact_hash": "a783501b2ca1a882"}
+{"model_id": "root036_root", "root_group": "root036", "root_seed": 1036, "history": [], "label": "root", "eval_acc": 0.856, "artifact_hash": "e0dfe29e310f0d39"}
+{"model_id": "root036_sft-unlearn", "root_group": "root036", "root_seed": 1036, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.854, "artifact_hash": "0119cdbdda5c63b4"}
+{"model_id": "root036_unlearn-sft", "root_group": "root036", "root_seed": 1036, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.853, "artifact_hash": "c126ff7e6e19e505"}
+{"model_id": "root036_sft-prune", "root_group": "root036", "root_seed": 1036, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.855, "artifact_hash": "3c96d9781db11966"}
+{"model_id": "root036_prune-sft", "root_group": "root036", "root_seed": 1036, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.851, "artifact_hash": "fa04d0f652126a74"}
+{"model_id": "root036_sft-quant", "root_group": "root036", "root_seed": 1036, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.853, "artifact_hash": "0205ee59fe36b151"}
+{"model_id": "root036_quant-sft", "root_group": "root036", "root_seed": 1036, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.852, "artifact_hash": "da614ed1ab6050d9"}
+{"model_id": "root037_root", "root_group": "root037", "root_seed": 1037, "history": [], "label": "root", "eval_acc": 0.859, "artifact_hash": "d24b8ebd6bb1fee2"}
+{"model_id": "root037_sft-unlearn", "root_group": "root037", "root_seed": 1037, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.856, "artifact_hash": "29b31728aff512e5"}
+{"model_id": "root037_unlearn-sft", "root_group": "root037", "root_seed": 1037, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.852, "artifact_hash": "0330952ff88de486"}
+{"model_id": "root037_sft-prune", "root_group": "root037", "root_seed": 1037, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.855, "artifact_hash": "2e683be426762673"}
+{"model_id": "root037_prune-sft", "root_group": "root037", "root_seed": 1037, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.853, "artifact_hash": "01c0e9dfd64d0cb7"}
+{"model_id": "root037_sft-quant", "root_group": "root037", "root_seed": 1037, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.85, "artifact_hash": "c663cefeb4122656"}
+{"model_id": "root037_quant-sft", "root_group": "root037", "root_seed": 1037, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.852, "artifact_hash": "f04a74e6a2d3ccfb"}
+{"model_id": "root038_root", "root_group": "root038", "root_seed": 1038, "history": [], "label": "root", "eval_acc": 0.868, "artifact_hash": "bcd68aff1e6dfdf2"}
+{"model_id": "root038_sft-unlearn", "root_group": "root038", "root_seed": 1038, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.863, "artifact_hash": "f266271f04574bb5"}
+{"model_id": "root038_unlearn-sft", "root_group": "root038", "root_seed": 1038, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.864, "artifact_hash": "14d7093da55eb62c"}
+{"model_id": "root038_sft-prune", "root_group": "root038", "root_seed": 1038, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.863, "artifact_hash": "9659e6df6cef9828"}
+{"model_id": "root038_prune-sft", "root_group": "root038", "root_seed": 1038, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.862, "artifact_hash": "e1a769f96f569603"}
+{"model_id": "root038_sft-quant", "root_group": "root038", "root_seed": 1038, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.858, "artifact_hash": "51504a822cbb4870"}
+{"model_id": "root038_quant-sft", "root_group": "root038", "root_seed": 1038, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.861, "artifact_hash": "60ccae8a3a267cb9"}
+{"model_id": "root039_root", "root_group": "root039", "root_seed": 1039, "history": [], "label": "root", "eval_acc": 0.875, "artifact_hash": "154abd25d56e7e86"}
+{"model_id": "root039_sft-unlearn", "root_group": "root039", "root_seed": 1039, "history": ["sft", "unlearn"], "label": "sft-unlearn", "eval_acc": 0.872, "artifact_hash": "a30b7cef04a6886e"}
+{"model_id": "root039_unlearn-sft", "root_group": "root039", "root_seed": 1039, "history": ["unlearn", "sft"], "label": "unlearn-sft", "eval_acc": 0.865, "artifact_hash": "9075c0d57a32ab61"}
+{"model_id": "root039_sft-prune", "root_group": "root039", "root_seed": 1039, "history": ["sft", "prune"], "label": "sft-prune", "eval_acc": 0.869, "artifact_hash": "bc543231749106eb"}
+{"model_id": "root039_prune-sft", "root_group": "root039", "root_seed": 1039, "history": ["prune", "sft"], "label": "prune-sft", "eval_acc": 0.865, "artifact_hash": "f3307029ecff85a9"}
+{"model_id": "root039_sft-quant", "root_group": "root039", "root_seed": 1039, "history": ["sft", "quant"], "label": "sft-quant", "eval_acc": 0.866, "artifact_hash": "899d5e0cbac28be5"}
+{"model_id": "root039_quant-sft", "root_group": "root039", "root_seed": 1039, "history": ["quant", "sft"], "label": "quant-sft", "eval_acc": 0.863, "artifact_hash": "ccade0c0c495e84f"}

@@ -1,0 +1,3597 @@
+{
+  "chance": 0.16666666666666666,
+  "labels": [
+    "root",
+    "null",
+    "sft",
+    "unlearn",
+    "prune",
+    "quant"
+  ],
+  "n_classification_models": 2400,
+  "n_replicate_models": 400,
+  "results": [
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "direction": "pooled",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.26416666666666666,
+      "macro_f1": 0.22871054586574288,
+      "balanced_accuracy_ci95": [
+        0.25165624999999997,
+        0.27626041666666673
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "direction": "pooled",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.27958333333333335,
+      "macro_f1": 0.27855639453544734,
+      "balanced_accuracy_ci95": [
+        0.26125,
+        0.29916666666666664
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "direction": "pooled",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.48583333333333334,
+      "macro_f1": 0.48156705440097686,
+      "balanced_accuracy_ci95": [
+        0.4683333333333333,
+        0.5029270833333335
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "direction": "pooled",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.5108333333333334,
+      "macro_f1": 0.503033198139619,
+      "balanced_accuracy_ci95": [
+        0.4925,
+        0.5283437500000001
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "direction": "pooled",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.46416666666666667,
+      "macro_f1": 0.46067786895592083,
+      "balanced_accuracy_ci95": [
+        0.44708333333333333,
+        0.48125
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "direction": "pooled",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.49333333333333335,
+      "macro_f1": 0.4859370531337404,
+      "balanced_accuracy_ci95": [
+        0.4741666666666666,
+        0.51125
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "direction": "within_cnn",
+      "n_train": 480,
+      "n_test": 480,
+      "balanced_accuracy": 0.6416666666666666,
+      "macro_f1": 0.6510059584878586,
+      "balanced_accuracy_ci95": [
+        0.6041666666666666,
+        0.6791666666666667
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "direction": "within_cnn",
+      "n_train": 480,
+      "n_test": 480,
+      "balanced_accuracy": 0.7458333333333332,
+      "macro_f1": 0.742547410385689,
+      "balanced_accuracy_ci95": [
+        0.7145833333333332,
+        0.7791666666666667
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "direction": "within_resnet",
+      "n_train": 480,
+      "n_test": 480,
+      "balanced_accuracy": 0.5916666666666667,
+      "macro_f1": 0.6009717887662734,
+      "balanced_accuracy_ci95": [
+        0.5479166666666666,
+        0.6333333333333333
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "direction": "within_resnet",
+      "n_train": 480,
+      "n_test": 480,
+      "balanced_accuracy": 0.6999999999999998,
+      "macro_f1": 0.6973863505430901,
+      "balanced_accuracy_ci95": [
+        0.6645833333333333,
+        0.7354166666666666
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "direction": "within_vgg",
+      "n_train": 480,
+      "n_test": 480,
+      "balanced_accuracy": 0.6708333333333334,
+      "macro_f1": 0.6778939333229509,
+      "balanced_accuracy_ci95": [
+        0.6270833333333333,
+        0.7145833333333332
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "direction": "within_vgg",
+      "n_train": 480,
+      "n_test": 480,
+      "balanced_accuracy": 0.8145833333333333,
+      "macro_f1": 0.8145799734035029,
+      "balanced_accuracy_ci95": [
+        0.7791666666666668,
+        0.85
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "direction": "within_depthwise",
+      "n_train": 480,
+      "n_test": 480,
+      "balanced_accuracy": 0.5875,
+      "macro_f1": 0.6029157294264579,
+      "balanced_accuracy_ci95": [
+        0.5520833333333333,
+        0.6270833333333333
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "direction": "within_depthwise",
+      "n_train": 480,
+      "n_test": 480,
+      "balanced_accuracy": 0.7479166666666667,
+      "macro_f1": 0.7434066320515106,
+      "balanced_accuracy_ci95": [
+        0.7125,
+        0.7791666666666667
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "direction": "within_seresnet",
+      "n_train": 480,
+      "n_test": 480,
+      "balanced_accuracy": 0.6479166666666667,
+      "macro_f1": 0.6554608242728251,
+      "balanced_accuracy_ci95": [
+        0.6041666666666666,
+        0.6958854166666667
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "direction": "within_seresnet",
+      "n_train": 480,
+      "n_test": 480,
+      "balanced_accuracy": 0.7958333333333334,
+      "macro_f1": 0.7924790505315853,
+      "balanced_accuracy_ci95": [
+        0.7645833333333334,
+        0.8250520833333334
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_cnn",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.17499999999999996,
+      "macro_f1": 0.10195573567517208,
+      "balanced_accuracy_ci95": [
+        0.16036458333333328,
+        0.18958333333333333
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_cnn",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.17500000000000002,
+      "macro_f1": 0.13710088038037244,
+      "balanced_accuracy_ci95": [
+        0.15,
+        0.19791666666666666
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_cnn",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.2479166666666667,
+      "macro_f1": 0.20418580151582633,
+      "balanced_accuracy_ci95": [
+        0.21875,
+        0.27708333333333335
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_cnn",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.29791666666666666,
+      "macro_f1": 0.27341785875784524,
+      "balanced_accuracy_ci95": [
+        0.26666666666666666,
+        0.32708333333333334
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_cnn",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.2208333333333333,
+      "macro_f1": 0.17225858313580836,
+      "balanced_accuracy_ci95": [
+        0.19994791666666664,
+        0.2438020833333333
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_cnn",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.31250000000000006,
+      "macro_f1": 0.28768497249378994,
+      "balanced_accuracy_ci95": [
+        0.28124999999999994,
+        0.34588541666666667
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_resnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.25833333333333336,
+      "macro_f1": 0.17580040089492122,
+      "balanced_accuracy_ci95": [
+        0.22916666666666666,
+        0.28958333333333336
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_resnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.1729166666666667,
+      "macro_f1": 0.15745693443882833,
+      "balanced_accuracy_ci95": [
+        0.14375000000000002,
+        0.2041666666666667
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_resnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.2708333333333333,
+      "macro_f1": 0.24369337662454493,
+      "balanced_accuracy_ci95": [
+        0.24791666666666665,
+        0.2958333333333334
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_resnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.20416666666666664,
+      "macro_f1": 0.1310127809168866,
+      "balanced_accuracy_ci95": [
+        0.18958333333333333,
+        0.22083333333333333
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_resnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.2541666666666667,
+      "macro_f1": 0.23040607345089767,
+      "balanced_accuracy_ci95": [
+        0.22916666666666666,
+        0.28333333333333327
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_resnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.18541666666666667,
+      "macro_f1": 0.11470575892443113,
+      "balanced_accuracy_ci95": [
+        0.1708333333333333,
+        0.2041666666666667
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_vgg",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.27499999999999997,
+      "macro_f1": 0.2601354847074064,
+      "balanced_accuracy_ci95": [
+        0.24791666666666667,
+        0.30416666666666664
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_vgg",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.1875,
+      "macro_f1": 0.1605955451098608,
+      "balanced_accuracy_ci95": [
+        0.16458333333333333,
+        0.21041666666666667
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_vgg",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.27291666666666664,
+      "macro_f1": 0.20549846567029953,
+      "balanced_accuracy_ci95": [
+        0.24375,
+        0.3021354166666666
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_vgg",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.33749999999999997,
+      "macro_f1": 0.31242192152961806,
+      "balanced_accuracy_ci95": [
+        0.30624999999999997,
+        0.3729166666666666
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_vgg",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.26875,
+      "macro_f1": 0.1958218900704015,
+      "balanced_accuracy_ci95": [
+        0.23958333333333334,
+        0.3
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_vgg",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.33958333333333335,
+      "macro_f1": 0.32214868267383506,
+      "balanced_accuracy_ci95": [
+        0.30416666666666664,
+        0.37500000000000006
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_depthwise",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.25416666666666665,
+      "macro_f1": 0.21772079900117872,
+      "balanced_accuracy_ci95": [
+        0.22703124999999996,
+        0.28338541666666667
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_depthwise",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.19583333333333333,
+      "macro_f1": 0.17773742995294314,
+      "balanced_accuracy_ci95": [
+        0.16869791666666661,
+        0.22708333333333333
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_depthwise",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.28750000000000003,
+      "macro_f1": 0.18220899333404184,
+      "balanced_accuracy_ci95": [
+        0.26875,
+        0.3083333333333333
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_depthwise",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.19374999999999998,
+      "macro_f1": 0.13180334434558436,
+      "balanced_accuracy_ci95": [
+        0.17911458333333327,
+        0.2104166666666667
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_depthwise",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.2833333333333334,
+      "macro_f1": 0.181249478682695,
+      "balanced_accuracy_ci95": [
+        0.2645833333333333,
+        0.30213541666666666
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_depthwise",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.2104166666666667,
+      "macro_f1": 0.15607330892353055,
+      "balanced_accuracy_ci95": [
+        0.18958333333333333,
+        0.23333333333333336
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_seresnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.28750000000000003,
+      "macro_f1": 0.20634943315666446,
+      "balanced_accuracy_ci95": [
+        0.25833333333333336,
+        0.31666666666666665
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_seresnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.2625,
+      "macro_f1": 0.2375399654715854,
+      "balanced_accuracy_ci95": [
+        0.23125000000000004,
+        0.29583333333333334
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_seresnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.32916666666666666,
+      "macro_f1": 0.27209188282261576,
+      "balanced_accuracy_ci95": [
+        0.29583333333333334,
+        0.36250000000000004
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_seresnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.4020833333333334,
+      "macro_f1": 0.37120009722673436,
+      "balanced_accuracy_ci95": [
+        0.36244791666666665,
+        0.44166666666666665
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "holdout_seresnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.33125000000000004,
+      "macro_f1": 0.30317348892422874,
+      "balanced_accuracy_ci95": [
+        0.29583333333333334,
+        0.3666666666666667
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "holdout_seresnet",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.37083333333333335,
+      "macro_f1": 0.35079173301647626,
+      "balanced_accuracy_ci95": [
+        0.33125000000000004,
+        0.41041666666666665
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "mean",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.25,
+      "macro_f1": 0.19239237068706855,
+      "balanced_accuracy_ci95": [
+        0.2245625,
+        0.2766770833333333
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "mean",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.19874999999999998,
+      "macro_f1": 0.174086151070718,
+      "balanced_accuracy_ci95": [
+        0.17165625,
+        0.22708333333333336
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "mean",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.2816666666666667,
+      "macro_f1": 0.22153570399346564,
+      "balanced_accuracy_ci95": [
+        0.255,
+        0.3091770833333333
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "mean",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.2870833333333333,
+      "macro_f1": 0.24397120055533375,
+      "balanced_accuracy_ci95": [
+        0.2608125,
+        0.3145833333333333
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_family_out",
+      "direction": "mean",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.27166666666666667,
+      "macro_f1": 0.21658190285280626,
+      "balanced_accuracy_ci95": [
+        0.24582291666666664,
+        0.29918750000000005
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_family_out",
+      "direction": "mean",
+      "n_train": 1920,
+      "n_test": 480,
+      "balanced_accuracy": 0.28375000000000006,
+      "macro_f1": 0.24628089120641258,
+      "balanced_accuracy_ci95": [
+        0.2554166666666666,
+        0.31376041666666665
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_dataset_out",
+      "direction": "cifar10_to_svhn",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.16666666666666666,
+      "macro_f1": 0.050695086364707376,
+      "balanced_accuracy_ci95": [
+        0.16666666666666666,
+        0.16666666666666666
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_dataset_out",
+      "direction": "cifar10_to_svhn",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.16583333333333333,
+      "macro_f1": 0.056003399536137054,
+      "balanced_accuracy_ci95": [
+        0.16416666666666666,
+        0.16666666666666666
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "logreg",
+      "split": "leave_dataset_out",
+      "direction": "cifar10_to_svhn",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.16749999999999998,
+      "macro_f1": 0.05953583435773634,
+      "balanced_accuracy_ci95": [
+        0.165,
+        0.17002083333333332
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "rf",
+      "split": "leave_dataset_out",
+      "direction": "cifar10_to_svhn",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.15666666666666668,
+      "macro_f1": 0.07383667694669795,
+      "balanced_accuracy_ci95": [
+        0.15,
+        0.1625
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_dataset_out",
+      "direction": "cifar10_to_svhn",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.1775,
+      "macro_f1": 0.08938351621278451,
+      "balanced_accuracy_ci95": [
+        0.165,
+        0.18999999999999997
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_dataset_out",
+      "direction": "cifar10_to_svhn",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.16666666666666666,
+      "macro_f1": 0.09187534387537034,
+      "balanced_accuracy_ci95": [
+        0.15666666666666668,
+        0.17583333333333337
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_dataset_out",
+      "direction": "svhn_to_cifar10",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.18000000000000002,
+      "macro_f1": 0.07217553688141924,
+      "balanced_accuracy_ci95": [
+        0.17333333333333334,
+        0.18666666666666668
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_dataset_out",
+      "direction": "svhn_to_cifar10",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.16666666666666666,
+      "macro_f1": 0.047619047619047616,
+      "balanced_accuracy_ci95": [
+        0.16666666666666666,
+        0.16666666666666666
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "logreg",
+      "split": "leave_dataset_out",
+      "direction": "svhn_to_cifar10",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.16666666666666666,
+      "macro_f1": 0.06504043686835008,
+      "balanced_accuracy_ci95": [
+        0.16,
+        0.17252083333333332
+      ]
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "rf",
+      "split": "leave_dataset_out",
+      "direction": "svhn_to_cifar10",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.17666666666666667,
+      "macro_f1": 0.08555231615957226,
+      "balanced_accuracy_ci95": [
+        0.16833333333333333,
+        0.18500000000000003
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_dataset_out",
+      "direction": "svhn_to_cifar10",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.16166666666666665,
+      "macro_f1": 0.05490165217020738,
+      "balanced_accuracy_ci95": [
+        0.15583333333333335,
+        0.16666666666666666
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_dataset_out",
+      "direction": "svhn_to_cifar10",
+      "n_train": 1200,
+      "n_test": 1200,
+      "balanced_accuracy": 0.18333333333333335,
+      "macro_f1": 0.10393558444889058,
+      "balanced_accuracy_ci95": [
+        0.17333333333333334,
+        0.19416666666666668
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_intensity_out",
+      "direction": "strongest_quartile",
+      "n_train": 1436,
+      "n_test": 143,
+      "balanced_accuracy": 0.20584615384615385,
+      "macro_f1": 0.12032170727822904,
+      "balanced_accuracy_ci95": [
+        0.1593753628236387,
+        0.25276318458417846
+      ],
+      "per_op_recall": {
+        "null": 0.0,
+        "sft": 0.76,
+        "unlearn": 0.0,
+        "prune": 0.2692307692307692,
+        "quant": 0.0
+      }
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_intensity_out",
+      "direction": "strongest_quartile",
+      "n_train": 1436,
+      "n_test": 143,
+      "balanced_accuracy": 0.27777289377289377,
+      "macro_f1": 0.23297699424856214,
+      "balanced_accuracy_ci95": [
+        0.20712727761907082,
+        0.3457569336240484
+      ],
+      "per_op_recall": {
+        "null": 0.28205128205128205,
+        "sft": 0.6,
+        "unlearn": 0.07142857142857142,
+        "prune": 0.11538461538461539,
+        "quant": 0.32
+      }
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "logreg",
+      "split": "leave_intensity_out",
+      "direction": "strongest_quartile",
+      "n_train": 1436,
+      "n_test": 143,
+      "balanced_accuracy": 0.4937728937728938,
+      "macro_f1": 0.42955991144058525,
+      "balanced_accuracy_ci95": [
+        0.4111867863416776,
+        0.5704705979331239
+      ],
+      "per_op_recall": {
+        "null": 0.5128205128205128,
+        "sft": 0.68,
+        "unlearn": 0.5714285714285714,
+        "prune": 0.38461538461538464,
+        "quant": 0.32
+      }
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "rf",
+      "split": "leave_intensity_out",
+      "direction": "strongest_quartile",
+      "n_train": 1436,
+      "n_test": 143,
+      "balanced_accuracy": 0.4253333333333334,
+      "macro_f1": 0.3526232561990313,
+      "balanced_accuracy_ci95": [
+        0.3552958074534161,
+        0.5096643878148922
+      ],
+      "per_op_recall": {
+        "null": 0.358974358974359,
+        "sft": 0.8,
+        "unlearn": 0.5,
+        "prune": 0.3076923076923077,
+        "quant": 0.16
+      }
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_intensity_out",
+      "direction": "strongest_quartile",
+      "n_train": 1436,
+      "n_test": 143,
+      "balanced_accuracy": 0.5069010989010989,
+      "macro_f1": 0.4444440921245944,
+      "balanced_accuracy_ci95": [
+        0.425799105401523,
+        0.588864672453574
+      ],
+      "per_op_recall": {
+        "null": 0.5384615384615384,
+        "sft": 0.76,
+        "unlearn": 0.5714285714285714,
+        "prune": 0.38461538461538464,
+        "quant": 0.28
+      }
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_intensity_out",
+      "direction": "strongest_quartile",
+      "n_train": 1436,
+      "n_test": 143,
+      "balanced_accuracy": 0.39303296703296703,
+      "macro_f1": 0.32211503967941485,
+      "balanced_accuracy_ci95": [
+        0.3221570565360522,
+        0.4675210828208724
+      ],
+      "per_op_recall": {
+        "null": 0.38461538461538464,
+        "sft": 0.8,
+        "unlearn": 0.39285714285714285,
+        "prune": 0.3076923076923077,
+        "quant": 0.08
+      }
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_intensity_out",
+      "direction": "second_quartile",
+      "n_train": 1401,
+      "n_test": 156,
+      "balanced_accuracy": 0.16816030487430084,
+      "macro_f1": 0.14162904947720054,
+      "balanced_accuracy_ci95": [
+        0.12435598470727782,
+        0.2203139056345953
+      ],
+      "per_op_recall": {
+        "null": 0.029411764705882353,
+        "sft": 0.5757575757575758,
+        "unlearn": 0.0,
+        "prune": 0.06896551724137931,
+        "quant": 0.16666666666666666
+      }
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_intensity_out",
+      "direction": "second_quartile",
+      "n_train": 1401,
+      "n_test": 156,
+      "balanced_accuracy": 0.29693230479234534,
+      "macro_f1": 0.2789119781582577,
+      "balanced_accuracy_ci95": [
+        0.21990907119238565,
+        0.36863909703432063
+      ],
+      "per_op_recall": {
+        "null": 0.20588235294117646,
+        "sft": 0.45454545454545453,
+        "unlearn": 0.3055555555555556,
+        "prune": 0.3103448275862069,
+        "quant": 0.20833333333333334
+      }
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "logreg",
+      "split": "leave_intensity_out",
+      "direction": "second_quartile",
+      "n_train": 1401,
+      "n_test": 156,
+      "balanced_accuracy": 0.3383341528879054,
+      "macro_f1": 0.29578111946533,
+      "balanced_accuracy_ci95": [
+        0.27913700066536884,
+        0.40300002212798447
+      ],
+      "per_op_recall": {
+        "null": 0.29411764705882354,
+        "sft": 0.7878787878787878,
+        "unlearn": 0.2777777777777778,
+        "prune": 0.20689655172413793,
+        "quant": 0.125
+      }
+    },
+    {
+      "feature_set": "probe_base_free",
+      "classifier": "rf",
+      "split": "leave_intensity_out",
+      "direction": "second_quartile",
+      "n_train": 1401,
+      "n_test": 156,
+      "balanced_accuracy": 0.3970429446595775,
+      "macro_f1": 0.35566444021906946,
+      "balanced_accuracy_ci95": [
+        0.3347381025511175,
+        0.46527518678142504
+      ],
+      "per_op_recall": {
+        "null": 0.4117647058823529,
+        "sft": 0.8181818181818182,
+        "unlearn": 0.3888888888888889,
+        "prune": 0.2413793103448276,
+        "quant": 0.125
+      }
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_intensity_out",
+      "direction": "second_quartile",
+      "n_train": 1401,
+      "n_test": 156,
+      "balanced_accuracy": 0.36864128096379617,
+      "macro_f1": 0.3287366942418312,
+      "balanced_accuracy_ci95": [
+        0.28950707061480724,
+        0.45030730694037135
+      ],
+      "per_op_recall": {
+        "null": 0.2647058823529412,
+        "sft": 0.5454545454545454,
+        "unlearn": 0.4166666666666667,
+        "prune": 0.2413793103448276,
+        "quant": 0.375
+      }
+    },
+    {
+      "feature_set": "probe_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_intensity_out",
+      "direction": "second_quartile",
+      "n_train": 1401,
+      "n_test": 156,
+      "balanced_accuracy": 0.3425973733275965,
+      "macro_f1": 0.30005050505050507,
+      "balanced_accuracy_ci95": [
+        0.28940926033031295,
+        0.3931265312284334
+      ],
+      "per_op_recall": {
+        "null": 0.38235294117647056,
+        "sft": 0.8181818181818182,
+        "unlearn": 0.3055555555555556,
+        "prune": 0.20689655172413793,
+        "quant": 0.0
+      }
+    },
+    {
+      "feature_set": "probe_base_free_id",
+      "classifier": "logreg",
+      "split": "probe_ablation",
+      "direction": "id",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.43083333333333335,
+      "macro_f1": 0.4269551790355129,
+      "balanced_accuracy_ci95": [
+        0.4141666666666666,
+        0.44875
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_id",
+      "classifier": "rf",
+      "split": "probe_ablation",
+      "direction": "id",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.46749999999999997,
+      "macro_f1": 0.460768064152208,
+      "balanced_accuracy_ci95": [
+        0.4475,
+        0.48625
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_ood",
+      "classifier": "logreg",
+      "split": "probe_ablation",
+      "direction": "ood",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.395,
+      "macro_f1": 0.3881045530685332,
+      "balanced_accuracy_ci95": [
+        0.37875,
+        0.4125104166666667
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_ood",
+      "classifier": "rf",
+      "split": "probe_ablation",
+      "direction": "ood",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.43166666666666664,
+      "macro_f1": 0.42570876380693945,
+      "balanced_accuracy_ci95": [
+        0.41375000000000006,
+        0.44917708333333334
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_both",
+      "classifier": "logreg",
+      "split": "probe_ablation",
+      "direction": "both",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.48583333333333334,
+      "macro_f1": 0.48156705440097686,
+      "balanced_accuracy_ci95": [
+        0.4683333333333333,
+        0.5029270833333335
+      ]
+    },
+    {
+      "feature_set": "probe_base_free_both",
+      "classifier": "rf",
+      "split": "probe_ablation",
+      "direction": "both",
+      "n_train": 2400,
+      "n_test": 2400,
+      "balanced_accuracy": 0.5108333333333334,
+      "macro_f1": 0.503033198139619,
+      "balanced_accuracy_ci95": [
+        0.4925,
+        0.5283437500000001
+      ]
+    }
+  ],
+  "intensity_holdouts": {
+    "strongest_quartile": {
+      "sft": ">=0.925",
+      "unlearn": ">=0.158423186248",
+      "prune": ">=0.625",
+      "quant": "bits=4",
+      "null": "epochs=3"
+    },
+    "second_quartile": {
+      "sft": "[0.575,0.75)",
+      "unlearn": "[0.064308737735,0.102276981396)",
+      "prune": "[0.375,0.5)",
+      "quant": "bits=5",
+      "null": "epochs=2"
+    }
+  },
+  "root_variance_share": {
+    "null": 0.9533457707603235,
+    "sft": 0.9384545921119158,
+    "unlearn": 0.8667135485814497,
+    "prune": 0.9709095118924299,
+    "quant": 1.0
+  },
+  "sign_flip": {
+    "leave_root_out": {
+      "raw_p": 9.999000099990002e-05,
+      "holm_p": 0.00029997000299970003
+    },
+    "leave_family_out": {
+      "raw_p": 0.00039996000399960006,
+      "holm_p": 0.0007999200079992001
+    },
+    "leave_dataset_out": {
+      "raw_p": 0.0273972602739726,
+      "holm_p": 0.0273972602739726
+    }
+  },
+  "sign_flip_self_check_p": 1.0,
+  "transductive": {
+    "population": "architecture_x_dataset",
+    "statistics_include_replicates": false,
+    "variants": {
+      "zscore": [
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.2333333333333333,
+          "macro_f1": 0.23346655170277186,
+          "balanced_accuracy_ci95": [
+            0.20828125,
+            0.25838541666666665
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.25416666666666665,
+          "macro_f1": 0.25609802677695265,
+          "balanced_accuracy_ci95": [
+            0.21666666666666667,
+            0.29375
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.44375000000000003,
+          "macro_f1": 0.4435360218026632,
+          "balanced_accuracy_ci95": [
+            0.4061979166666666,
+            0.48333333333333334
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.36250000000000004,
+          "macro_f1": 0.35496054357313067,
+          "balanced_accuracy_ci95": [
+            0.33125,
+            0.39375000000000004
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.41250000000000003,
+          "macro_f1": 0.40592177286741626,
+          "balanced_accuracy_ci95": [
+            0.37703124999999993,
+            0.44588541666666665
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.36041666666666666,
+          "macro_f1": 0.3578623873227946,
+          "balanced_accuracy_ci95": [
+            0.32708333333333334,
+            0.39791666666666664
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.27708333333333335,
+          "macro_f1": 0.27133746051784563,
+          "balanced_accuracy_ci95": [
+            0.2520833333333333,
+            0.30416666666666664
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.275,
+          "macro_f1": 0.274209698631983,
+          "balanced_accuracy_ci95": [
+            0.23750000000000002,
+            0.3104166666666667
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.3395833333333333,
+          "macro_f1": 0.33625642424828484,
+          "balanced_accuracy_ci95": [
+            0.3020833333333333,
+            0.375
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.3416666666666666,
+          "macro_f1": 0.33241981391904957,
+          "balanced_accuracy_ci95": [
+            0.3061979166666666,
+            0.38125000000000003
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.3499999999999999,
+          "macro_f1": 0.3457875269354169,
+          "balanced_accuracy_ci95": [
+            0.3166145833333333,
+            0.38546874999999997
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.34375,
+          "macro_f1": 0.33503565305980576,
+          "balanced_accuracy_ci95": [
+            0.3083333333333333,
+            0.38338541666666665
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.25833333333333336,
+          "macro_f1": 0.25445514886063353,
+          "balanced_accuracy_ci95": [
+            0.22916666666666666,
+            0.2916666666666667
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.25833333333333336,
+          "macro_f1": 0.2554407223487308,
+          "balanced_accuracy_ci95": [
+            0.225,
+            0.29375
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.47083333333333327,
+          "macro_f1": 0.4661881893681432,
+          "balanced_accuracy_ci95": [
+            0.4291666666666667,
+            0.5125000000000001
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.45625000000000004,
+          "macro_f1": 0.4536378976142898,
+          "balanced_accuracy_ci95": [
+            0.4145833333333333,
+            0.5020833333333333
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.4791666666666667,
+          "macro_f1": 0.4764953442770448,
+          "balanced_accuracy_ci95": [
+            0.4458333333333333,
+            0.5125000000000001
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.46666666666666673,
+          "macro_f1": 0.4648289688659429,
+          "balanced_accuracy_ci95": [
+            0.4229166666666666,
+            0.5125000000000001
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.3416666666666666,
+          "macro_f1": 0.3196608688214752,
+          "balanced_accuracy_ci95": [
+            0.30833333333333335,
+            0.375
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.3354166666666667,
+          "macro_f1": 0.33217911676484185,
+          "balanced_accuracy_ci95": [
+            0.29791666666666666,
+            0.37083333333333335
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.44999999999999996,
+          "macro_f1": 0.4436467075739939,
+          "balanced_accuracy_ci95": [
+            0.41661458333333323,
+            0.4833333333333332
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.42291666666666666,
+          "macro_f1": 0.41955219445683256,
+          "balanced_accuracy_ci95": [
+            0.3770833333333334,
+            0.46666666666666673
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.4416666666666667,
+          "macro_f1": 0.43643023076346993,
+          "balanced_accuracy_ci95": [
+            0.40416666666666673,
+            0.4791666666666667
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.39166666666666666,
+          "macro_f1": 0.3846983036512279,
+          "balanced_accuracy_ci95": [
+            0.3561979166666666,
+            0.4271354166666667
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.3875,
+          "macro_f1": 0.3341179281046971,
+          "balanced_accuracy_ci95": [
+            0.36041666666666666,
+            0.41458333333333336
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.34375,
+          "macro_f1": 0.3221106796485184,
+          "balanced_accuracy_ci95": [
+            0.30416666666666664,
+            0.3812499999999999
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.49374999999999997,
+          "macro_f1": 0.4891136623088423,
+          "balanced_accuracy_ci95": [
+            0.4583333333333333,
+            0.52921875
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.5083333333333333,
+          "macro_f1": 0.4997276549013255,
+          "balanced_accuracy_ci95": [
+            0.4708333333333334,
+            0.55
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.4895833333333333,
+          "macro_f1": 0.48726160659526657,
+          "balanced_accuracy_ci95": [
+            0.45416666666666666,
+            0.5270833333333333
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.48958333333333326,
+          "macro_f1": 0.4756034575585905,
+          "balanced_accuracy_ci95": [
+            0.44791666666666674,
+            0.5313020833333334
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.2995833333333333,
+          "macro_f1": 0.28260759160148463,
+          "balanced_accuracy_ci95": [
+            0.27165625,
+            0.32876041666666667
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.29333333333333333,
+          "macro_f1": 0.2880076488342053,
+          "balanced_accuracy_ci95": [
+            0.25625,
+            0.32999999999999996
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.4395833333333333,
+          "macro_f1": 0.4357482010603855,
+          "balanced_accuracy_ci95": [
+            0.4024791666666666,
+            0.4766770833333333
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.41833333333333333,
+          "macro_f1": 0.4120596208929256,
+          "balanced_accuracy_ci95": [
+            0.3799895833333334,
+            0.45875000000000005
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.4345833333333333,
+          "macro_f1": 0.4303792962877229,
+          "balanced_accuracy_ci95": [
+            0.3995625,
+            0.47002083333333333
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.4104166666666666,
+          "macro_f1": 0.4036057540916723,
+          "balanced_accuracy_ci95": [
+            0.3724895833333333,
+            0.4504479166666667
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.2366666666666666,
+          "macro_f1": 0.22771467293818168,
+          "balanced_accuracy_ci95": [
+            0.21916666666666665,
+            0.25585416666666666
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.20416666666666664,
+          "macro_f1": 0.19834216010464392,
+          "balanced_accuracy_ci95": [
+            0.18414583333333334,
+            0.2225
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.25916666666666666,
+          "macro_f1": 0.25651269415130357,
+          "balanced_accuracy_ci95": [
+            0.24250000000000002,
+            0.2775
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.26333333333333336,
+          "macro_f1": 0.26613110577463683,
+          "balanced_accuracy_ci95": [
+            0.24247916666666663,
+            0.28833333333333333
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.24750000000000003,
+          "macro_f1": 0.24199377386454568,
+          "balanced_accuracy_ci95": [
+            0.23,
+            0.265
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.24083333333333332,
+          "macro_f1": 0.2437670505025807,
+          "balanced_accuracy_ci95": [
+            0.21997916666666664,
+            0.26
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.28583333333333333,
+          "macro_f1": 0.22375818200254924,
+          "balanced_accuracy_ci95": [
+            0.26916666666666667,
+            0.30333333333333334
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.26583333333333337,
+          "macro_f1": 0.24800264713043077,
+          "balanced_accuracy_ci95": [
+            0.2466666666666667,
+            0.2866666666666667
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.2716666666666667,
+          "macro_f1": 0.2582355402625323,
+          "balanced_accuracy_ci95": [
+            0.25166666666666665,
+            0.2941666666666667
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.32666666666666666,
+          "macro_f1": 0.3119133606674017,
+          "balanced_accuracy_ci95": [
+            0.30083333333333334,
+            0.35333333333333333
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.2675,
+          "macro_f1": 0.2599498209290289,
+          "balanced_accuracy_ci95": [
+            0.24666666666666667,
+            0.28833333333333333
+          ],
+          "normalization": "zscore"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.31416666666666665,
+          "macro_f1": 0.3003776503061651,
+          "balanced_accuracy_ci95": [
+            0.29083333333333333,
+            0.33752083333333327
+          ],
+          "normalization": "zscore"
+        }
+      ],
+      "quantile": [
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.2520833333333333,
+          "macro_f1": 0.2484756383936285,
+          "balanced_accuracy_ci95": [
+            0.22291666666666668,
+            0.28333333333333327
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.27499999999999997,
+          "macro_f1": 0.27386300311660416,
+          "balanced_accuracy_ci95": [
+            0.24161458333333333,
+            0.31255208333333334
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.45416666666666666,
+          "macro_f1": 0.45546877718014683,
+          "balanced_accuracy_ci95": [
+            0.4145833333333333,
+            0.49588541666666663
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.38333333333333336,
+          "macro_f1": 0.37401130728750204,
+          "balanced_accuracy_ci95": [
+            0.3416666666666666,
+            0.4208854166666667
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.40625,
+          "macro_f1": 0.4045903806843533,
+          "balanced_accuracy_ci95": [
+            0.36874999999999997,
+            0.44588541666666665
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_cnn",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.38125000000000003,
+          "macro_f1": 0.37888877501153756,
+          "balanced_accuracy_ci95": [
+            0.34583333333333327,
+            0.42291666666666666
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.275,
+          "macro_f1": 0.2667721837001306,
+          "balanced_accuracy_ci95": [
+            0.24166666666666667,
+            0.31046874999999996
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.26875,
+          "macro_f1": 0.2670207303656234,
+          "balanced_accuracy_ci95": [
+            0.2291666666666667,
+            0.3104166666666666
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.41041666666666665,
+          "macro_f1": 0.40762755699387604,
+          "balanced_accuracy_ci95": [
+            0.3729166666666666,
+            0.44999999999999996
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.3291666666666667,
+          "macro_f1": 0.32327397333202285,
+          "balanced_accuracy_ci95": [
+            0.29375,
+            0.3687499999999999
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.37916666666666665,
+          "macro_f1": 0.37312050406571423,
+          "balanced_accuracy_ci95": [
+            0.3478645833333333,
+            0.41046875
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_resnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.33958333333333335,
+          "macro_f1": 0.32821319450602043,
+          "balanced_accuracy_ci95": [
+            0.3020833333333333,
+            0.37921875
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.30416666666666664,
+          "macro_f1": 0.29532728039493156,
+          "balanced_accuracy_ci95": [
+            0.27291666666666664,
+            0.3333333333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.2625,
+          "macro_f1": 0.2633703108348366,
+          "balanced_accuracy_ci95": [
+            0.225,
+            0.3020833333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.5,
+          "macro_f1": 0.4964538778598804,
+          "balanced_accuracy_ci95": [
+            0.46041666666666664,
+            0.5417187499999999
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.47708333333333336,
+          "macro_f1": 0.4666762126406471,
+          "balanced_accuracy_ci95": [
+            0.43958333333333327,
+            0.51875
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.44999999999999996,
+          "macro_f1": 0.4426692609782113,
+          "balanced_accuracy_ci95": [
+            0.41041666666666665,
+            0.49374999999999997
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_vgg",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.4354166666666666,
+          "macro_f1": 0.4288526879428123,
+          "balanced_accuracy_ci95": [
+            0.39999999999999997,
+            0.4770833333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.3708333333333333,
+          "macro_f1": 0.35137026497435303,
+          "balanced_accuracy_ci95": [
+            0.33541666666666664,
+            0.40625
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.2875,
+          "macro_f1": 0.288016417747284,
+          "balanced_accuracy_ci95": [
+            0.23958333333333334,
+            0.3333333333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.42500000000000004,
+          "macro_f1": 0.42006725466682,
+          "balanced_accuracy_ci95": [
+            0.39161458333333327,
+            0.4583333333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.45625000000000004,
+          "macro_f1": 0.45399762892593726,
+          "balanced_accuracy_ci95": [
+            0.4124479166666666,
+            0.4979166666666666
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.4124999999999999,
+          "macro_f1": 0.4086739517316155,
+          "balanced_accuracy_ci95": [
+            0.37494791666666666,
+            0.44999999999999996
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_depthwise",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.42291666666666666,
+          "macro_f1": 0.41931146314450957,
+          "balanced_accuracy_ci95": [
+            0.38328124999999996,
+            0.46458333333333335
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.4354166666666666,
+          "macro_f1": 0.40837268192589166,
+          "balanced_accuracy_ci95": [
+            0.40208333333333335,
+            0.4666666666666666
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.35625,
+          "macro_f1": 0.34148305046088817,
+          "balanced_accuracy_ci95": [
+            0.3166666666666667,
+            0.39375000000000004
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.5270833333333333,
+          "macro_f1": 0.5261239763876364,
+          "balanced_accuracy_ci95": [
+            0.4916666666666667,
+            0.5645833333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.5187499999999999,
+          "macro_f1": 0.5113940545676835,
+          "balanced_accuracy_ci95": [
+            0.48125,
+            0.5583333333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.4895833333333333,
+          "macro_f1": 0.48771806972034687,
+          "balanced_accuracy_ci95": [
+            0.44999999999999996,
+            0.5270833333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "holdout_seresnet",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.5041666666666668,
+          "macro_f1": 0.4944466177398686,
+          "balanced_accuracy_ci95": [
+            0.4645833333333333,
+            0.54796875
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.3275,
+          "macro_f1": 0.3140636098777871,
+          "balanced_accuracy_ci95": [
+            0.29500000000000004,
+            0.3600104166666666
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.29,
+          "macro_f1": 0.28675070250504725,
+          "balanced_accuracy_ci95": [
+            0.25040625000000005,
+            0.3304270833333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.46333333333333326,
+          "macro_f1": 0.461148288617672,
+          "balanced_accuracy_ci95": [
+            0.4262395833333333,
+            0.5021041666666666
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.43291666666666667,
+          "macro_f1": 0.4258706353507586,
+          "balanced_accuracy_ci95": [
+            0.3937395833333333,
+            0.4729270833333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.42749999999999994,
+          "macro_f1": 0.4233544334360483,
+          "balanced_accuracy_ci95": [
+            0.39039583333333333,
+            0.4654375
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_family_out",
+          "direction": "mean",
+          "n_train": 1920,
+          "n_test": 480,
+          "balanced_accuracy": 0.4166666666666667,
+          "macro_f1": 0.40994254766894966,
+          "balanced_accuracy_ci95": [
+            0.37915625,
+            0.45835416666666673
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.2416666666666667,
+          "macro_f1": 0.22857903210430497,
+          "balanced_accuracy_ci95": [
+            0.2225,
+            0.2625208333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.20666666666666667,
+          "macro_f1": 0.20490941484293987,
+          "balanced_accuracy_ci95": [
+            0.1883125,
+            0.2275208333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.255,
+          "macro_f1": 0.25104221729554554,
+          "balanced_accuracy_ci95": [
+            0.2366666666666667,
+            0.2725208333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.27749999999999997,
+          "macro_f1": 0.2788207711496598,
+          "balanced_accuracy_ci95": [
+            0.255,
+            0.3033333333333333
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.25500000000000006,
+          "macro_f1": 0.2481941464738641,
+          "balanced_accuracy_ci95": [
+            0.23749999999999996,
+            0.2733333333333334
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "cifar10_to_svhn",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.26916666666666667,
+          "macro_f1": 0.27053917923818016,
+          "balanced_accuracy_ci95": [
+            0.24500000000000002,
+            0.29666666666666663
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.28500000000000003,
+          "macro_f1": 0.2514711759656559,
+          "balanced_accuracy_ci95": [
+            0.265,
+            0.30585416666666665
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "confound",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.2616666666666667,
+          "macro_f1": 0.249363083243761,
+          "balanced_accuracy_ci95": [
+            0.24083333333333334,
+            0.2816875
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.3041666666666667,
+          "macro_f1": 0.2963237652004632,
+          "balanced_accuracy_ci95": [
+            0.28500000000000003,
+            0.32416666666666666
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.3225,
+          "macro_f1": 0.31643445224682354,
+          "balanced_accuracy_ci95": [
+            0.2991666666666667,
+            0.3483541666666667
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "logreg",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.2958333333333333,
+          "macro_f1": 0.2930653585920617,
+          "balanced_accuracy_ci95": [
+            0.2741458333333333,
+            0.31833333333333336
+          ],
+          "normalization": "quantile"
+        },
+        {
+          "feature_set": "probe_base_free_tda",
+          "classifier": "rf",
+          "split": "leave_dataset_out",
+          "direction": "svhn_to_cifar10",
+          "n_train": 1200,
+          "n_test": 1200,
+          "balanced_accuracy": 0.31083333333333335,
+          "macro_f1": 0.30438856518286245,
+          "balanced_accuracy_ci95": [
+            0.2866666666666667,
+            0.3358333333333334
+          ],
+          "normalization": "quantile"
+        }
+      ]
+    },
+    "leave_root_out_zscore_self_check": [
+      {
+        "feature_set": "confound",
+        "classifier": "logreg",
+        "unnormalized": 0.26416666666666666,
+        "zscore": 0.31041666666666673,
+        "difference": 0.04625000000000007
+      },
+      {
+        "feature_set": "confound",
+        "classifier": "rf",
+        "unnormalized": 0.27958333333333335,
+        "zscore": 0.31625,
+        "difference": 0.036666666666666625
+      },
+      {
+        "feature_set": "probe_base_free",
+        "classifier": "logreg",
+        "unnormalized": 0.48583333333333334,
+        "zscore": 0.5041666666666667,
+        "difference": 0.018333333333333313
+      },
+      {
+        "feature_set": "probe_base_free",
+        "classifier": "rf",
+        "unnormalized": 0.5108333333333334,
+        "zscore": 0.46291666666666664,
+        "difference": -0.04791666666666672
+      },
+      {
+        "feature_set": "probe_base_free_tda",
+        "classifier": "logreg",
+        "unnormalized": 0.46416666666666667,
+        "zscore": 0.4879166666666667,
+        "difference": 0.02375000000000005
+      },
+      {
+        "feature_set": "probe_base_free_tda",
+        "classifier": "rf",
+        "unnormalized": 0.49333333333333335,
+        "zscore": 0.44749999999999995,
+        "difference": -0.04583333333333339
+      }
+    ],
+    "comparisons": [
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_cnn",
+        "feature_set": "confound",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.17499999999999996,
+        "zscore_balanced_accuracy": 0.2333333333333333,
+        "zscore_balanced_accuracy_ci95": [
+          0.20828125,
+          0.25838541666666665
+        ],
+        "quantile_balanced_accuracy": 0.2520833333333333,
+        "quantile_balanced_accuracy_ci95": [
+          0.22291666666666668,
+          0.28333333333333327
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_cnn",
+        "feature_set": "confound",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.17500000000000002,
+        "zscore_balanced_accuracy": 0.25416666666666665,
+        "zscore_balanced_accuracy_ci95": [
+          0.21666666666666667,
+          0.29375
+        ],
+        "quantile_balanced_accuracy": 0.27499999999999997,
+        "quantile_balanced_accuracy_ci95": [
+          0.24161458333333333,
+          0.31255208333333334
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_cnn",
+        "feature_set": "probe_base_free",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.2479166666666667,
+        "zscore_balanced_accuracy": 0.44375000000000003,
+        "zscore_balanced_accuracy_ci95": [
+          0.4061979166666666,
+          0.48333333333333334
+        ],
+        "quantile_balanced_accuracy": 0.45416666666666666,
+        "quantile_balanced_accuracy_ci95": [
+          0.4145833333333333,
+          0.49588541666666663
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_cnn",
+        "feature_set": "probe_base_free",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.29791666666666666,
+        "zscore_balanced_accuracy": 0.36250000000000004,
+        "zscore_balanced_accuracy_ci95": [
+          0.33125,
+          0.39375000000000004
+        ],
+        "quantile_balanced_accuracy": 0.38333333333333336,
+        "quantile_balanced_accuracy_ci95": [
+          0.3416666666666666,
+          0.4208854166666667
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_cnn",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.2208333333333333,
+        "zscore_balanced_accuracy": 0.41250000000000003,
+        "zscore_balanced_accuracy_ci95": [
+          0.37703124999999993,
+          0.44588541666666665
+        ],
+        "quantile_balanced_accuracy": 0.40625,
+        "quantile_balanced_accuracy_ci95": [
+          0.36874999999999997,
+          0.44588541666666665
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_cnn",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.31250000000000006,
+        "zscore_balanced_accuracy": 0.36041666666666666,
+        "zscore_balanced_accuracy_ci95": [
+          0.32708333333333334,
+          0.39791666666666664
+        ],
+        "quantile_balanced_accuracy": 0.38125000000000003,
+        "quantile_balanced_accuracy_ci95": [
+          0.34583333333333327,
+          0.42291666666666666
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_resnet",
+        "feature_set": "confound",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.25833333333333336,
+        "zscore_balanced_accuracy": 0.27708333333333335,
+        "zscore_balanced_accuracy_ci95": [
+          0.2520833333333333,
+          0.30416666666666664
+        ],
+        "quantile_balanced_accuracy": 0.275,
+        "quantile_balanced_accuracy_ci95": [
+          0.24166666666666667,
+          0.31046874999999996
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_resnet",
+        "feature_set": "confound",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.1729166666666667,
+        "zscore_balanced_accuracy": 0.275,
+        "zscore_balanced_accuracy_ci95": [
+          0.23750000000000002,
+          0.3104166666666667
+        ],
+        "quantile_balanced_accuracy": 0.26875,
+        "quantile_balanced_accuracy_ci95": [
+          0.2291666666666667,
+          0.3104166666666666
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_resnet",
+        "feature_set": "probe_base_free",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.2708333333333333,
+        "zscore_balanced_accuracy": 0.3395833333333333,
+        "zscore_balanced_accuracy_ci95": [
+          0.3020833333333333,
+          0.375
+        ],
+        "quantile_balanced_accuracy": 0.41041666666666665,
+        "quantile_balanced_accuracy_ci95": [
+          0.3729166666666666,
+          0.44999999999999996
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_resnet",
+        "feature_set": "probe_base_free",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.20416666666666664,
+        "zscore_balanced_accuracy": 0.3416666666666666,
+        "zscore_balanced_accuracy_ci95": [
+          0.3061979166666666,
+          0.38125000000000003
+        ],
+        "quantile_balanced_accuracy": 0.3291666666666667,
+        "quantile_balanced_accuracy_ci95": [
+          0.29375,
+          0.3687499999999999
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_resnet",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.2541666666666667,
+        "zscore_balanced_accuracy": 0.3499999999999999,
+        "zscore_balanced_accuracy_ci95": [
+          0.3166145833333333,
+          0.38546874999999997
+        ],
+        "quantile_balanced_accuracy": 0.37916666666666665,
+        "quantile_balanced_accuracy_ci95": [
+          0.3478645833333333,
+          0.41046875
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_resnet",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.18541666666666667,
+        "zscore_balanced_accuracy": 0.34375,
+        "zscore_balanced_accuracy_ci95": [
+          0.3083333333333333,
+          0.38338541666666665
+        ],
+        "quantile_balanced_accuracy": 0.33958333333333335,
+        "quantile_balanced_accuracy_ci95": [
+          0.3020833333333333,
+          0.37921875
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_vgg",
+        "feature_set": "confound",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.27499999999999997,
+        "zscore_balanced_accuracy": 0.25833333333333336,
+        "zscore_balanced_accuracy_ci95": [
+          0.22916666666666666,
+          0.2916666666666667
+        ],
+        "quantile_balanced_accuracy": 0.30416666666666664,
+        "quantile_balanced_accuracy_ci95": [
+          0.27291666666666664,
+          0.3333333333333333
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_vgg",
+        "feature_set": "confound",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.1875,
+        "zscore_balanced_accuracy": 0.25833333333333336,
+        "zscore_balanced_accuracy_ci95": [
+          0.225,
+          0.29375
+        ],
+        "quantile_balanced_accuracy": 0.2625,
+        "quantile_balanced_accuracy_ci95": [
+          0.225,
+          0.3020833333333333
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_vgg",
+        "feature_set": "probe_base_free",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.27291666666666664,
+        "zscore_balanced_accuracy": 0.47083333333333327,
+        "zscore_balanced_accuracy_ci95": [
+          0.4291666666666667,
+          0.5125000000000001
+        ],
+        "quantile_balanced_accuracy": 0.5,
+        "quantile_balanced_accuracy_ci95": [
+          0.46041666666666664,
+          0.5417187499999999
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_vgg",
+        "feature_set": "probe_base_free",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.33749999999999997,
+        "zscore_balanced_accuracy": 0.45625000000000004,
+        "zscore_balanced_accuracy_ci95": [
+          0.4145833333333333,
+          0.5020833333333333
+        ],
+        "quantile_balanced_accuracy": 0.47708333333333336,
+        "quantile_balanced_accuracy_ci95": [
+          0.43958333333333327,
+          0.51875
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_vgg",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.26875,
+        "zscore_balanced_accuracy": 0.4791666666666667,
+        "zscore_balanced_accuracy_ci95": [
+          0.4458333333333333,
+          0.5125000000000001
+        ],
+        "quantile_balanced_accuracy": 0.44999999999999996,
+        "quantile_balanced_accuracy_ci95": [
+          0.41041666666666665,
+          0.49374999999999997
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_vgg",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.33958333333333335,
+        "zscore_balanced_accuracy": 0.46666666666666673,
+        "zscore_balanced_accuracy_ci95": [
+          0.4229166666666666,
+          0.5125000000000001
+        ],
+        "quantile_balanced_accuracy": 0.4354166666666666,
+        "quantile_balanced_accuracy_ci95": [
+          0.39999999999999997,
+          0.4770833333333333
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_depthwise",
+        "feature_set": "confound",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.25416666666666665,
+        "zscore_balanced_accuracy": 0.3416666666666666,
+        "zscore_balanced_accuracy_ci95": [
+          0.30833333333333335,
+          0.375
+        ],
+        "quantile_balanced_accuracy": 0.3708333333333333,
+        "quantile_balanced_accuracy_ci95": [
+          0.33541666666666664,
+          0.40625
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_depthwise",
+        "feature_set": "confound",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.19583333333333333,
+        "zscore_balanced_accuracy": 0.3354166666666667,
+        "zscore_balanced_accuracy_ci95": [
+          0.29791666666666666,
+          0.37083333333333335
+        ],
+        "quantile_balanced_accuracy": 0.2875,
+        "quantile_balanced_accuracy_ci95": [
+          0.23958333333333334,
+          0.3333333333333333
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_depthwise",
+        "feature_set": "probe_base_free",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.28750000000000003,
+        "zscore_balanced_accuracy": 0.44999999999999996,
+        "zscore_balanced_accuracy_ci95": [
+          0.41661458333333323,
+          0.4833333333333332
+        ],
+        "quantile_balanced_accuracy": 0.42500000000000004,
+        "quantile_balanced_accuracy_ci95": [
+          0.39161458333333327,
+          0.4583333333333333
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_depthwise",
+        "feature_set": "probe_base_free",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.19374999999999998,
+        "zscore_balanced_accuracy": 0.42291666666666666,
+        "zscore_balanced_accuracy_ci95": [
+          0.3770833333333334,
+          0.46666666666666673
+        ],
+        "quantile_balanced_accuracy": 0.45625000000000004,
+        "quantile_balanced_accuracy_ci95": [
+          0.4124479166666666,
+          0.4979166666666666
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_depthwise",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.2833333333333334,
+        "zscore_balanced_accuracy": 0.4416666666666667,
+        "zscore_balanced_accuracy_ci95": [
+          0.40416666666666673,
+          0.4791666666666667
+        ],
+        "quantile_balanced_accuracy": 0.4124999999999999,
+        "quantile_balanced_accuracy_ci95": [
+          0.37494791666666666,
+          0.44999999999999996
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_depthwise",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.2104166666666667,
+        "zscore_balanced_accuracy": 0.39166666666666666,
+        "zscore_balanced_accuracy_ci95": [
+          0.3561979166666666,
+          0.4271354166666667
+        ],
+        "quantile_balanced_accuracy": 0.42291666666666666,
+        "quantile_balanced_accuracy_ci95": [
+          0.38328124999999996,
+          0.46458333333333335
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_seresnet",
+        "feature_set": "confound",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.28750000000000003,
+        "zscore_balanced_accuracy": 0.3875,
+        "zscore_balanced_accuracy_ci95": [
+          0.36041666666666666,
+          0.41458333333333336
+        ],
+        "quantile_balanced_accuracy": 0.4354166666666666,
+        "quantile_balanced_accuracy_ci95": [
+          0.40208333333333335,
+          0.4666666666666666
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_seresnet",
+        "feature_set": "confound",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.2625,
+        "zscore_balanced_accuracy": 0.34375,
+        "zscore_balanced_accuracy_ci95": [
+          0.30416666666666664,
+          0.3812499999999999
+        ],
+        "quantile_balanced_accuracy": 0.35625,
+        "quantile_balanced_accuracy_ci95": [
+          0.3166666666666667,
+          0.39375000000000004
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_seresnet",
+        "feature_set": "probe_base_free",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.32916666666666666,
+        "zscore_balanced_accuracy": 0.49374999999999997,
+        "zscore_balanced_accuracy_ci95": [
+          0.4583333333333333,
+          0.52921875
+        ],
+        "quantile_balanced_accuracy": 0.5270833333333333,
+        "quantile_balanced_accuracy_ci95": [
+          0.4916666666666667,
+          0.5645833333333333
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_seresnet",
+        "feature_set": "probe_base_free",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.4020833333333334,
+        "zscore_balanced_accuracy": 0.5083333333333333,
+        "zscore_balanced_accuracy_ci95": [
+          0.4708333333333334,
+          0.55
+        ],
+        "quantile_balanced_accuracy": 0.5187499999999999,
+        "quantile_balanced_accuracy_ci95": [
+          0.48125,
+          0.5583333333333333
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_seresnet",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.33125000000000004,
+        "zscore_balanced_accuracy": 0.4895833333333333,
+        "zscore_balanced_accuracy_ci95": [
+          0.45416666666666666,
+          0.5270833333333333
+        ],
+        "quantile_balanced_accuracy": 0.4895833333333333,
+        "quantile_balanced_accuracy_ci95": [
+          0.44999999999999996,
+          0.5270833333333333
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "holdout_seresnet",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.37083333333333335,
+        "zscore_balanced_accuracy": 0.48958333333333326,
+        "zscore_balanced_accuracy_ci95": [
+          0.44791666666666674,
+          0.5313020833333334
+        ],
+        "quantile_balanced_accuracy": 0.5041666666666668,
+        "quantile_balanced_accuracy_ci95": [
+          0.4645833333333333,
+          0.54796875
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "mean",
+        "feature_set": "confound",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.25,
+        "zscore_balanced_accuracy": 0.2995833333333333,
+        "zscore_balanced_accuracy_ci95": [
+          0.27165625,
+          0.32876041666666667
+        ],
+        "quantile_balanced_accuracy": 0.3275,
+        "quantile_balanced_accuracy_ci95": [
+          0.29500000000000004,
+          0.3600104166666666
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "mean",
+        "feature_set": "confound",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.19874999999999998,
+        "zscore_balanced_accuracy": 0.29333333333333333,
+        "zscore_balanced_accuracy_ci95": [
+          0.25625,
+          0.32999999999999996
+        ],
+        "quantile_balanced_accuracy": 0.29,
+        "quantile_balanced_accuracy_ci95": [
+          0.25040625000000005,
+          0.3304270833333333
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "mean",
+        "feature_set": "probe_base_free",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.2816666666666667,
+        "zscore_balanced_accuracy": 0.4395833333333333,
+        "zscore_balanced_accuracy_ci95": [
+          0.4024791666666666,
+          0.4766770833333333
+        ],
+        "quantile_balanced_accuracy": 0.46333333333333326,
+        "quantile_balanced_accuracy_ci95": [
+          0.4262395833333333,
+          0.5021041666666666
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "mean",
+        "feature_set": "probe_base_free",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.2870833333333333,
+        "zscore_balanced_accuracy": 0.41833333333333333,
+        "zscore_balanced_accuracy_ci95": [
+          0.3799895833333334,
+          0.45875000000000005
+        ],
+        "quantile_balanced_accuracy": 0.43291666666666667,
+        "quantile_balanced_accuracy_ci95": [
+          0.3937395833333333,
+          0.4729270833333333
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "mean",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.27166666666666667,
+        "zscore_balanced_accuracy": 0.4345833333333333,
+        "zscore_balanced_accuracy_ci95": [
+          0.3995625,
+          0.47002083333333333
+        ],
+        "quantile_balanced_accuracy": 0.42749999999999994,
+        "quantile_balanced_accuracy_ci95": [
+          0.39039583333333333,
+          0.4654375
+        ]
+      },
+      {
+        "split": "leave_family_out",
+        "direction": "mean",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.28375000000000006,
+        "zscore_balanced_accuracy": 0.4104166666666666,
+        "zscore_balanced_accuracy_ci95": [
+          0.3724895833333333,
+          0.4504479166666667
+        ],
+        "quantile_balanced_accuracy": 0.4166666666666667,
+        "quantile_balanced_accuracy_ci95": [
+          0.37915625,
+          0.45835416666666673
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "cifar10_to_svhn",
+        "feature_set": "confound",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.16666666666666666,
+        "zscore_balanced_accuracy": 0.2366666666666666,
+        "zscore_balanced_accuracy_ci95": [
+          0.21916666666666665,
+          0.25585416666666666
+        ],
+        "quantile_balanced_accuracy": 0.2416666666666667,
+        "quantile_balanced_accuracy_ci95": [
+          0.2225,
+          0.2625208333333333
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "cifar10_to_svhn",
+        "feature_set": "confound",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.16583333333333333,
+        "zscore_balanced_accuracy": 0.20416666666666664,
+        "zscore_balanced_accuracy_ci95": [
+          0.18414583333333334,
+          0.2225
+        ],
+        "quantile_balanced_accuracy": 0.20666666666666667,
+        "quantile_balanced_accuracy_ci95": [
+          0.1883125,
+          0.2275208333333333
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "cifar10_to_svhn",
+        "feature_set": "probe_base_free",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.16749999999999998,
+        "zscore_balanced_accuracy": 0.25916666666666666,
+        "zscore_balanced_accuracy_ci95": [
+          0.24250000000000002,
+          0.2775
+        ],
+        "quantile_balanced_accuracy": 0.255,
+        "quantile_balanced_accuracy_ci95": [
+          0.2366666666666667,
+          0.2725208333333333
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "cifar10_to_svhn",
+        "feature_set": "probe_base_free",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.15666666666666668,
+        "zscore_balanced_accuracy": 0.26333333333333336,
+        "zscore_balanced_accuracy_ci95": [
+          0.24247916666666663,
+          0.28833333333333333
+        ],
+        "quantile_balanced_accuracy": 0.27749999999999997,
+        "quantile_balanced_accuracy_ci95": [
+          0.255,
+          0.3033333333333333
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "cifar10_to_svhn",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.1775,
+        "zscore_balanced_accuracy": 0.24750000000000003,
+        "zscore_balanced_accuracy_ci95": [
+          0.23,
+          0.265
+        ],
+        "quantile_balanced_accuracy": 0.25500000000000006,
+        "quantile_balanced_accuracy_ci95": [
+          0.23749999999999996,
+          0.2733333333333334
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "cifar10_to_svhn",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.16666666666666666,
+        "zscore_balanced_accuracy": 0.24083333333333332,
+        "zscore_balanced_accuracy_ci95": [
+          0.21997916666666664,
+          0.26
+        ],
+        "quantile_balanced_accuracy": 0.26916666666666667,
+        "quantile_balanced_accuracy_ci95": [
+          0.24500000000000002,
+          0.29666666666666663
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "svhn_to_cifar10",
+        "feature_set": "confound",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.18000000000000002,
+        "zscore_balanced_accuracy": 0.28583333333333333,
+        "zscore_balanced_accuracy_ci95": [
+          0.26916666666666667,
+          0.30333333333333334
+        ],
+        "quantile_balanced_accuracy": 0.28500000000000003,
+        "quantile_balanced_accuracy_ci95": [
+          0.265,
+          0.30585416666666665
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "svhn_to_cifar10",
+        "feature_set": "confound",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.16666666666666666,
+        "zscore_balanced_accuracy": 0.26583333333333337,
+        "zscore_balanced_accuracy_ci95": [
+          0.2466666666666667,
+          0.2866666666666667
+        ],
+        "quantile_balanced_accuracy": 0.2616666666666667,
+        "quantile_balanced_accuracy_ci95": [
+          0.24083333333333334,
+          0.2816875
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "svhn_to_cifar10",
+        "feature_set": "probe_base_free",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.16666666666666666,
+        "zscore_balanced_accuracy": 0.2716666666666667,
+        "zscore_balanced_accuracy_ci95": [
+          0.25166666666666665,
+          0.2941666666666667
+        ],
+        "quantile_balanced_accuracy": 0.3041666666666667,
+        "quantile_balanced_accuracy_ci95": [
+          0.28500000000000003,
+          0.32416666666666666
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "svhn_to_cifar10",
+        "feature_set": "probe_base_free",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.17666666666666667,
+        "zscore_balanced_accuracy": 0.32666666666666666,
+        "zscore_balanced_accuracy_ci95": [
+          0.30083333333333334,
+          0.35333333333333333
+        ],
+        "quantile_balanced_accuracy": 0.3225,
+        "quantile_balanced_accuracy_ci95": [
+          0.2991666666666667,
+          0.3483541666666667
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "svhn_to_cifar10",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "logreg",
+        "unnormalized_balanced_accuracy": 0.16166666666666665,
+        "zscore_balanced_accuracy": 0.2675,
+        "zscore_balanced_accuracy_ci95": [
+          0.24666666666666667,
+          0.28833333333333333
+        ],
+        "quantile_balanced_accuracy": 0.2958333333333333,
+        "quantile_balanced_accuracy_ci95": [
+          0.2741458333333333,
+          0.31833333333333336
+        ]
+      },
+      {
+        "split": "leave_dataset_out",
+        "direction": "svhn_to_cifar10",
+        "feature_set": "probe_base_free_tda",
+        "classifier": "rf",
+        "unnormalized_balanced_accuracy": 0.18333333333333335,
+        "zscore_balanced_accuracy": 0.31416666666666665,
+        "zscore_balanced_accuracy_ci95": [
+          0.29083333333333333,
+          0.33752083333333327
+        ],
+        "quantile_balanced_accuracy": 0.31083333333333335,
+        "quantile_balanced_accuracy_ci95": [
+          0.2866666666666667,
+          0.3358333333333334
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "metric": "balanced_accuracy",
+  "results": [
+    {
+      "task": "primary_6class",
+      "method": "reef_cka",
+      "score": 0.5458333333333333,
+      "balanced_accuracy": 0.5458333333333333,
+      "ci95": [
+        0.5166666666666667,
+        0.575
+      ],
+      "reference_aware": false,
+      "selected_variant": "class_mean"
+    },
+    {
+      "task": "primary_6class",
+      "method": "raw_weights_pca_logreg",
+      "score": 0.16666666666666666,
+      "balanced_accuracy": 0.16666666666666666,
+      "ci95": [
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "primary_6class",
+      "method": "raw_weights_pca_rf",
+      "score": 0.16666666666666666,
+      "balanced_accuracy": 0.16666666666666666,
+      "ci95": [
+        0.15,
+        0.18333333333333335
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "primary_6class",
+      "method": "raw_probe_profile_logreg",
+      "score": 0.6583333333333333,
+      "balanced_accuracy": 0.6583333333333333,
+      "ci95": [
+        0.6123958333333333,
+        0.7041666666666666
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "primary_6class",
+      "method": "raw_probe_profile_pca_rf",
+      "score": 0.575,
+      "balanced_accuracy": 0.575,
+      "ci95": [
+        0.5166666666666667,
+        0.6291666666666667
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "primary_6class",
+      "method": "delta_act_full_logreg",
+      "score": 0.3208333333333333,
+      "balanced_accuracy": 0.3208333333333333,
+      "ci95": [
+        0.2833333333333334,
+        0.35833333333333334
+      ],
+      "reference_aware": true
+    },
+    {
+      "task": "primary_6class",
+      "method": "delta_act_full_rf",
+      "score": 0.8041666666666667,
+      "balanced_accuracy": 0.8041666666666667,
+      "ci95": [
+        0.7708333333333334,
+        0.8416666666666667
+      ],
+      "reference_aware": true
+    },
+    {
+      "task": "primary_6class",
+      "method": "all_base_free_logreg",
+      "score": 0.8708333333333332,
+      "balanced_accuracy": 0.8708333333333332,
+      "ci95": [
+        0.8333333333333334,
+        0.9083333333333333
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "primary_6class",
+      "method": "all_base_free_rf",
+      "score": 0.7958333333333334,
+      "balanced_accuracy": 0.7958333333333334,
+      "ci95": [
+        0.75,
+        0.8334374999999999
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "primary_6class",
+      "method": "delta_ref_logreg",
+      "score": 1.0,
+      "balanced_accuracy": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "reference_aware": true
+    },
+    {
+      "task": "primary_6class",
+      "method": "nearest_centroid",
+      "score": 0.7708333333333331,
+      "balanced_accuracy": 0.7708333333333331,
+      "ci95": [
+        0.7083333333333334,
+        0.8250000000000001
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "hardest_order_pair",
+      "method": "reef_cka",
+      "score": 0.9125,
+      "balanced_accuracy": 0.9125,
+      "ci95": [
+        0.85,
+        0.9625
+      ],
+      "reference_aware": false,
+      "selected_variant": "class_mean"
+    },
+    {
+      "task": "hardest_order_pair",
+      "method": "raw_weights_pca_logreg",
+      "score": 0.5125,
+      "balanced_accuracy": 0.5125,
+      "ci95": [
+        0.475,
+        0.5625
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "hardest_order_pair",
+      "method": "raw_weights_pca_rf",
+      "score": 0.525,
+      "balanced_accuracy": 0.525,
+      "ci95": [
+        0.475,
+        0.575
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "hardest_order_pair",
+      "method": "raw_probe_profile_logreg",
+      "score": 0.975,
+      "balanced_accuracy": 0.975,
+      "ci95": [
+        0.9375,
+        1.0
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "hardest_order_pair",
+      "method": "raw_probe_profile_pca_rf",
+      "score": 0.9625,
+      "balanced_accuracy": 0.9625,
+      "ci95": [
+        0.9125,
+        1.0
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "hardest_order_pair",
+      "method": "delta_act_full_logreg",
+      "score": 0.7875,
+      "balanced_accuracy": 0.7875,
+      "ci95": [
+        0.7,
+        0.875
+      ],
+      "reference_aware": true
+    },
+    {
+      "task": "hardest_order_pair",
+      "method": "delta_act_full_rf",
+      "score": 0.9375,
+      "balanced_accuracy": 0.9375,
+      "ci95": [
+        0.8875,
+        0.9875
+      ],
+      "reference_aware": true
+    },
+    {
+      "task": "hardest_order_pair",
+      "method": "all_base_free_logreg",
+      "score": 0.9375,
+      "balanced_accuracy": 0.9375,
+      "ci95": [
+        0.8875,
+        0.9875
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "hardest_order_pair",
+      "method": "all_base_free_rf",
+      "score": 0.85,
+      "balanced_accuracy": 0.85,
+      "ci95": [
+        0.775,
+        0.925
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "ft_laundering",
+      "method": "reef_cka",
+      "score": 0.25,
+      "balanced_accuracy": 0.25,
+      "ci95": [
+        0.21999999999999997,
+        0.28500000000000003
+      ],
+      "reference_aware": false,
+      "selected_variant": "one_nn"
+    },
+    {
+      "task": "ft_laundering",
+      "method": "raw_weights_pca_logreg",
+      "score": 0.2,
+      "balanced_accuracy": 0.2,
+      "ci95": [
+        0.2,
+        0.2
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "ft_laundering",
+      "method": "raw_weights_pca_rf",
+      "score": 0.20500000000000002,
+      "balanced_accuracy": 0.20500000000000002,
+      "ci95": [
+        0.19,
+        0.225
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "ft_laundering",
+      "method": "raw_probe_profile_logreg",
+      "score": 0.22999999999999998,
+      "balanced_accuracy": 0.22999999999999998,
+      "ci95": [
+        0.21000000000000002,
+        0.255
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "ft_laundering",
+      "method": "raw_probe_profile_pca_rf",
+      "score": 0.24,
+      "balanced_accuracy": 0.24,
+      "ci95": [
+        0.215,
+        0.265
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "ft_laundering",
+      "method": "delta_act_full_logreg",
+      "score": 0.085,
+      "balanced_accuracy": 0.085,
+      "ci95": [
+        0.045,
+        0.125
+      ],
+      "reference_aware": true
+    },
+    {
+      "task": "ft_laundering",
+      "method": "delta_act_full_rf",
+      "score": 0.3,
+      "balanced_accuracy": 0.3,
+      "ci95": [
+        0.25,
+        0.355
+      ],
+      "reference_aware": true
+    },
+    {
+      "task": "ft_laundering",
+      "method": "all_base_free_logreg",
+      "score": 0.395,
+      "balanced_accuracy": 0.395,
+      "ci95": [
+        0.355,
+        0.43499999999999994
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "ft_laundering",
+      "method": "all_base_free_rf",
+      "score": 0.425,
+      "balanced_accuracy": 0.425,
+      "ci95": [
+        0.39,
+        0.45999999999999996
+      ],
+      "reference_aware": false
+    },
+    {
+      "task": "ft_laundering",
+      "method": "delta_ref_logreg",
+      "score": 0.35,
+      "balanced_accuracy": 0.35,
+      "ci95": [
+        0.32,
+        0.375
+      ],
+      "reference_aware": true
+    },
+    {
+      "task": "ft_laundering",
+      "method": "nearest_centroid",
+      "score": 0.43,
+      "balanced_accuracy": 0.43,
+      "ci95": [
+        0.38999999999999996,
+        0.475
+      ],
+      "reference_aware": false
+    }
+  ],
+  "reef_cka_variants": {
+    "primary_6class": {
+      "one_nn": {
+        "task": "primary_6class",
+        "method": "reef_cka_one_nn",
+        "score": 0.5208333333333334,
+        "balanced_accuracy": 0.5208333333333334,
+        "ci95": [
+          0.4875,
+          0.5542708333333334
+        ],
+        "reference_aware": false
+      },
+      "class_mean": {
+        "task": "primary_6class",
+        "method": "reef_cka_class_mean",
+        "score": 0.5458333333333333,
+        "balanced_accuracy": 0.5458333333333333,
+        "ci95": [
+          0.5166666666666667,
+          0.575
+        ],
+        "reference_aware": false
+      },
+      "selected": "class_mean"
+    },
+    "ft_laundering": {
+      "one_nn": {
+        "task": "ft_laundering",
+        "method": "reef_cka_one_nn",
+        "score": 0.25,
+        "balanced_accuracy": 0.25,
+        "ci95": [
+          0.21999999999999997,
+          0.28500000000000003
+        ],
+        "reference_aware": false
+      },
+      "class_mean": {
+        "task": "ft_laundering",
+        "method": "reef_cka_class_mean",
+        "score": 0.24,
+        "balanced_accuracy": 0.24,
+        "ci95": [
+          0.215,
+          0.275
+        ],
+        "reference_aware": false
+      },
+      "selected": "one_nn"
+    },
+    "hardest_order_pair": {
+      "one_nn": {
+        "task": "hardest_order_pair",
+        "method": "reef_cka_one_nn",
+        "score": 0.7875,
+        "balanced_accuracy": 0.7875,
+        "ci95": [
+          0.7124999999999999,
+          0.8625
+        ],
+        "reference_aware": false
+      },
+      "class_mean": {
+        "task": "hardest_order_pair",
+        "method": "reef_cka_class_mean",
+        "score": 0.9125,
+        "balanced_accuracy": 0.9125,
+        "ci95": [
+          0.85,
+          0.9625
+        ],
+        "reference_aware": false
+      },
+      "selected": "class_mean"
+    }
+  },
+  "populations": {
+    "primary_6class": 240,
+    "hardest_order_pair": 80,
+    "ft_laundering": 200
+  }
+}

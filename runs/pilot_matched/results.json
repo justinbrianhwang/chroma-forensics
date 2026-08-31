@@ -1,0 +1,511 @@
+{
+  "chance": 0.16666666666666666,
+  "labels": [
+    "root",
+    "null",
+    "sft",
+    "unlearn",
+    "prune",
+    "quant"
+  ],
+  "results": [
+    {
+      "feature_set": "delta_ref",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "feature_set": "delta_ref",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "feature_set": "delta_ref",
+      "classifier": "logreg",
+      "split": "random_split",
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "feature_set": "delta_ref",
+      "classifier": "rf",
+      "split": "random_split",
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.8708333333333332,
+      "macro_f1": 0.8717988299649306,
+      "balanced_accuracy_ci95": [
+        0.8333333333333334,
+        0.9083333333333333
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "logreg",
+      "split": "random_split",
+      "balanced_accuracy": 0.8333333333333334,
+      "macro_f1": 0.8319047723412067,
+      "balanced_accuracy_ci95": [
+        0.7916666666666666,
+        0.875
+      ]
+    },
+    {
+      "feature_set": "all_base_free_tda",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.8333333333333331,
+      "macro_f1": 0.8361449693613793,
+      "balanced_accuracy_ci95": [
+        0.7875,
+        0.875
+      ]
+    },
+    {
+      "feature_set": "all_base_free_tda",
+      "classifier": "logreg",
+      "split": "random_split",
+      "balanced_accuracy": 0.8166666666666668,
+      "macro_f1": 0.8161042497943463,
+      "balanced_accuracy_ci95": [
+        0.7790625,
+        0.8541666666666666
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.7958333333333334,
+      "macro_f1": 0.7830777415932243,
+      "balanced_accuracy_ci95": [
+        0.75,
+        0.8334374999999999
+      ]
+    },
+    {
+      "feature_set": "all_base_free_tda",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.7958333333333334,
+      "macro_f1": 0.7830675215387698,
+      "balanced_accuracy_ci95": [
+        0.7416666666666667,
+        0.8416666666666667
+      ]
+    },
+    {
+      "feature_set": "all_base_free",
+      "classifier": "rf",
+      "split": "random_split",
+      "balanced_accuracy": 0.6749999999999999,
+      "macro_f1": 0.667419341575968,
+      "balanced_accuracy_ci95": [
+        0.6290625,
+        0.7208333333333333
+      ]
+    },
+    {
+      "feature_set": "all_base_free_tda",
+      "classifier": "rf",
+      "split": "random_split",
+      "balanced_accuracy": 0.6583333333333333,
+      "macro_f1": 0.6543819430435646,
+      "balanced_accuracy_ci95": [
+        0.6083333333333334,
+        0.7083333333333334
+      ]
+    },
+    {
+      "feature_set": "actgeom+logit",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.5625,
+      "macro_f1": 0.5583237165019405,
+      "balanced_accuracy_ci95": [
+        0.5125,
+        0.6208333333333332
+      ]
+    },
+    {
+      "feature_set": "weights",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.5541666666666667,
+      "macro_f1": 0.5530792457298482,
+      "balanced_accuracy_ci95": [
+        0.525,
+        0.5875
+      ]
+    },
+    {
+      "feature_set": "weights",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.5125,
+      "macro_f1": 0.5227835227835228,
+      "balanced_accuracy_ci95": [
+        0.47083333333333327,
+        0.5583333333333332
+      ]
+    },
+    {
+      "feature_set": "blackbox",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.5083333333333333,
+      "macro_f1": 0.5032391929410899,
+      "balanced_accuracy_ci95": [
+        0.4666666666666666,
+        0.5541666666666666
+      ]
+    },
+    {
+      "feature_set": "actgeom",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.5041666666666667,
+      "macro_f1": 0.495063197817515,
+      "balanced_accuracy_ci95": [
+        0.45,
+        0.5541666666666667
+      ]
+    },
+    {
+      "feature_set": "logit",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.4708333333333334,
+      "macro_f1": 0.46724789130017896,
+      "balanced_accuracy_ci95": [
+        0.42083333333333334,
+        0.5166666666666667
+      ]
+    },
+    {
+      "feature_set": "actgeom+topology",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.47083333333333327,
+      "macro_f1": 0.4735618885618886,
+      "balanced_accuracy_ci95": [
+        0.42916666666666664,
+        0.5125000000000001
+      ]
+    },
+    {
+      "feature_set": "actgeom+logit",
+      "classifier": "logreg",
+      "split": "random_split",
+      "balanced_accuracy": 0.4666666666666666,
+      "macro_f1": 0.48371258702370495,
+      "balanced_accuracy_ci95": [
+        0.425,
+        0.5125
+      ]
+    },
+    {
+      "feature_set": "actgeom",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.4666666666666666,
+      "macro_f1": 0.4392165870137485,
+      "balanced_accuracy_ci95": [
+        0.41250000000000003,
+        0.5249999999999999
+      ]
+    },
+    {
+      "feature_set": "actgeom+logit",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.4583333333333333,
+      "macro_f1": 0.44006611532147066,
+      "balanced_accuracy_ci95": [
+        0.4083333333333334,
+        0.5083333333333333
+      ]
+    },
+    {
+      "feature_set": "actgeom+topology",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.45416666666666666,
+      "macro_f1": 0.42683191881119825,
+      "balanced_accuracy_ci95": [
+        0.39999999999999997,
+        0.5
+      ]
+    },
+    {
+      "feature_set": "blackbox",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.44583333333333336,
+      "macro_f1": 0.43287611995644254,
+      "balanced_accuracy_ci95": [
+        0.3915624999999999,
+        0.49583333333333335
+      ]
+    },
+    {
+      "feature_set": "actgeom",
+      "classifier": "logreg",
+      "split": "random_split",
+      "balanced_accuracy": 0.4124999999999999,
+      "macro_f1": 0.42029123441515176,
+      "balanced_accuracy_ci95": [
+        0.3666666666666667,
+        0.4625000000000001
+      ]
+    },
+    {
+      "feature_set": "blackbox",
+      "classifier": "logreg",
+      "split": "random_split",
+      "balanced_accuracy": 0.4083333333333334,
+      "macro_f1": 0.40825256713030716,
+      "balanced_accuracy_ci95": [
+        0.35833333333333334,
+        0.46249999999999997
+      ]
+    },
+    {
+      "feature_set": "logit",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.3916666666666666,
+      "macro_f1": 0.3875641665606467,
+      "balanced_accuracy_ci95": [
+        0.34156249999999994,
+        0.44166666666666665
+      ]
+    },
+    {
+      "feature_set": "weights",
+      "classifier": "logreg",
+      "split": "random_split",
+      "balanced_accuracy": 0.375,
+      "macro_f1": 0.3748926370520587,
+      "balanced_accuracy_ci95": [
+        0.3458333333333334,
+        0.4083333333333334
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.3666666666666667,
+      "macro_f1": 0.3580132843846706,
+      "balanced_accuracy_ci95": [
+        0.325,
+        0.4083333333333334
+      ]
+    },
+    {
+      "feature_set": "actgeom+topology",
+      "classifier": "logreg",
+      "split": "random_split",
+      "balanced_accuracy": 0.36666666666666664,
+      "macro_f1": 0.38703210501082846,
+      "balanced_accuracy_ci95": [
+        0.3208333333333333,
+        0.4166666666666667
+      ]
+    },
+    {
+      "feature_set": "topology",
+      "classifier": "logreg",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.35833333333333334,
+      "macro_f1": 0.3545998968562197,
+      "balanced_accuracy_ci95": [
+        0.3082291666666666,
+        0.4083333333333334
+      ]
+    },
+    {
+      "feature_set": "logit",
+      "classifier": "logreg",
+      "split": "random_split",
+      "balanced_accuracy": 0.3541666666666667,
+      "macro_f1": 0.3561298260226886,
+      "balanced_accuracy_ci95": [
+        0.30416666666666664,
+        0.40416666666666673
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.3375000000000001,
+      "macro_f1": 0.3383463609270061,
+      "balanced_accuracy_ci95": [
+        0.275,
+        0.39999999999999997
+      ]
+    },
+    {
+      "feature_set": "weights",
+      "classifier": "rf",
+      "split": "random_split",
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.3333333333333333,
+      "balanced_accuracy_ci95": [
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "feature_set": "topology",
+      "classifier": "rf",
+      "split": "leave_root_out",
+      "balanced_accuracy": 0.32916666666666666,
+      "macro_f1": 0.2868962883228512,
+      "balanced_accuracy_ci95": [
+        0.29166666666666663,
+        0.37083333333333335
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "logreg",
+      "split": "random_split",
+      "balanced_accuracy": 0.30416666666666664,
+      "macro_f1": 0.2961392138338566,
+      "balanced_accuracy_ci95": [
+        0.2583333333333333,
+        0.3541666666666667
+      ]
+    },
+    {
+      "feature_set": "blackbox",
+      "classifier": "rf",
+      "split": "random_split",
+      "balanced_accuracy": 0.29583333333333334,
+      "macro_f1": 0.299117417211806,
+      "balanced_accuracy_ci95": [
+        0.2583333333333333,
+        0.32916666666666666
+      ]
+    },
+    {
+      "feature_set": "logit",
+      "classifier": "rf",
+      "split": "random_split",
+      "balanced_accuracy": 0.2541666666666667,
+      "macro_f1": 0.2611931885902562,
+      "balanced_accuracy_ci95": [
+        0.20833333333333334,
+        0.2959374999999999
+      ]
+    },
+    {
+      "feature_set": "actgeom+logit",
+      "classifier": "rf",
+      "split": "random_split",
+      "balanced_accuracy": 0.24999999999999997,
+      "macro_f1": 0.2518767119466336,
+      "balanced_accuracy_ci95": [
+        0.20822916666666663,
+        0.2916666666666667
+      ]
+    },
+    {
+      "feature_set": "topology",
+      "classifier": "logreg",
+      "split": "random_split",
+      "balanced_accuracy": 0.22499999999999998,
+      "macro_f1": 0.24901068470895393,
+      "balanced_accuracy_ci95": [
+        0.17500000000000002,
+        0.275
+      ]
+    },
+    {
+      "feature_set": "actgeom+topology",
+      "classifier": "rf",
+      "split": "random_split",
+      "balanced_accuracy": 0.22083333333333335,
+      "macro_f1": 0.22098927811976085,
+      "balanced_accuracy_ci95": [
+        0.19166666666666665,
+        0.25
+      ]
+    },
+    {
+      "feature_set": "actgeom",
+      "classifier": "rf",
+      "split": "random_split",
+      "balanced_accuracy": 0.21250000000000002,
+      "macro_f1": 0.217232566630157,
+      "balanced_accuracy_ci95": [
+        0.18333333333333332,
+        0.24166666666666667
+      ]
+    },
+    {
+      "feature_set": "confound",
+      "classifier": "rf",
+      "split": "random_split",
+      "balanced_accuracy": 0.20000000000000004,
+      "macro_f1": 0.2043425250024963,
+      "balanced_accuracy_ci95": [
+        0.15833333333333333,
+        0.24583333333333335
+      ]
+    },
+    {
+      "feature_set": "topology",
+      "classifier": "rf",
+      "split": "random_split",
+      "balanced_accuracy": 0.15000000000000002,
+      "macro_f1": 0.14958765553211165,
+      "balanced_accuracy_ci95": [
+        0.12083333333333335,
+        0.17916666666666667
+      ]
+    }
+  ],
+  "best_base_free": {
+    "feature_set": "all_base_free",
+    "classifier": "logreg",
+    "split": "leave_root_out",
+    "per_class_recall": {
+      "root": 0.85,
+      "null": 0.75,
+      "sft": 0.95,
+      "unlearn": 0.7,
+      "prune": 0.975,
+      "quant": 1.0
+    }
+  },
+  "tda_increment_lro": -0.03750000000000009
+}
