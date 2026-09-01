@@ -5,9 +5,9 @@ from pathlib import Path
 
 import numpy as np
 
-from autopsy import (baseline_features, evaluate, evaluate_baselines, evaluate_grid,
-                     evaluate_laundering, evaluate_openset, evaluate_pairs, fingerprint,
-                     identifiability, zoo)
+from autopsy import (baseline_features, evaluate, evaluate_adaptive, evaluate_baselines,
+                     evaluate_grid, evaluate_laundering, evaluate_openset, evaluate_pairs,
+                     fingerprint, identifiability, revision_analysis, zoo)
 
 
 def _manifest(out_dir):
@@ -31,7 +31,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--stage", choices=("zoo", "fingerprint", "eval", "all", "pairs",
                                              "openset", "launder", "grid", "transductive",
-                                             "identify", "baselines"), default="all")
+                                             "identify", "baselines", "adaptive", "revision"),
+                        default="all")
     parser.add_argument("--n-roots", type=int, default=40)
     parser.add_argument("--n-roots-per-cell", type=int, default=20)
     parser.add_argument("--smoke", action="store_true")
@@ -44,20 +45,25 @@ def main():
                     "launder": Path("runs/laundered"),
                     "grid": Path("runs/grid"), "transductive": Path("runs/grid"),
                     "identify": Path("runs/identifiability"),
-                    "baselines": Path("runs/baselines")}.get(
+                    "baselines": Path("runs/baselines"),
+                    "adaptive": Path("runs/adaptive"),
+                    "revision": Path("runs/revision")}.get(
                         args.stage, Path("runs/pilot"))
     if args.smoke:
         args.n_roots = 2
         args.n_roots_per_cell = 2
         print("smoke: n_roots=2, n_roots_per_cell=2")
 
-    stages = (("baseline_features", "eval_baselines") if args.stage == "baselines" else
-              (("grid", "fingerprint", "eval_grid") if args.stage == "grid" else
-              (("zoo", "fingerprint", "eval") if args.stage == "all" else
-              (("pairs", "fingerprint", "eval_pairs") if args.stage == "pairs" else
-               (("unknowns", "fingerprint", "eval_openset") if args.stage == "openset" else
-                (("laundered", "fingerprint", "eval_laundering")
-                 if args.stage == "launder" else (args.stage,)))))))
+    stages = {
+        "adaptive": ("adaptive", "fingerprint", "eval_adaptive"),
+        "revision": ("revision",),
+        "baselines": ("baseline_features", "eval_baselines"),
+        "grid": ("grid", "fingerprint", "eval_grid"),
+        "all": ("zoo", "fingerprint", "eval"),
+        "pairs": ("pairs", "fingerprint", "eval_pairs"),
+        "openset": ("unknowns", "fingerprint", "eval_openset"),
+        "launder": ("laundered", "fingerprint", "eval_laundering"),
+    }.get(args.stage, (args.stage,))
     manifest = _manifest(args.out)
     if "grid" in stages:
         expected = args.n_roots_per_cell * (10 * 6 + 5 * 2)
@@ -89,6 +95,13 @@ def main():
             print(f"laundered: skipping existing manifest with {expected} rows")
         else:
             manifest = zoo.build_laundered(args.out, args.source, n_roots=args.n_roots)
+    if "adaptive" in stages:
+        expected = args.n_roots * (1 + len(zoo.OPERATIONS) * 2)
+        if len(manifest) == expected:
+            print(f"adaptive: skipping existing manifest with {expected} rows")
+        else:
+            manifest = zoo.build_adaptive(
+                args.out, args.source, n_roots=args.n_roots)
     if "fingerprint" in stages:
         manifest = _manifest(args.out)
         if not manifest:
@@ -107,6 +120,8 @@ def main():
         evaluate_openset.evaluate_openset(args.out, args.roots_from)
     if "eval_laundering" in stages:
         evaluate_laundering.evaluate_laundering(args.out, args.source)
+    if "eval_adaptive" in stages:
+        evaluate_adaptive.evaluate_adaptive(args.out, args.source)
     if "transductive" in stages:
         evaluate_grid.evaluate_transductive(args.out)
     if "identify" in stages:
@@ -115,6 +130,8 @@ def main():
         baseline_features.extract_baseline_features(args.out)
     if "eval_baselines" in stages:
         evaluate_baselines.evaluate_baselines(args.out)
+    if "revision" in stages:
+        revision_analysis.evaluate_revision(args.out)
 
 
 if __name__ == "__main__":

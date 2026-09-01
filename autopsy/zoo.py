@@ -437,6 +437,54 @@ def laundry_noise(m, S, seed):
     return noisy
 
 
+def launder_adaptive(m, root, S, seed, lam):
+    """Detector-aware fine-tuning against the public activation/logit probes."""
+    X, y = S["op"]
+    probes = torch.cat((S["probe_id"], S["probe_ood"]))
+    model = copy.deepcopy(m)
+    root = copy.deepcopy(root).eval()
+    for parameter in root.parameters():
+        parameter.requires_grad_(False)
+    gen = torch.Generator(device=DEV).manual_seed(seed)
+    opt = torch.optim.SGD(model.parameters(), lr=0.02, momentum=0.9,
+                          weight_decay=5e-4, nesterov=True)
+    steps = max(1, 2 * (len(X) // 512))
+    sched = torch.optim.lr_scheduler.OneCycleLR(opt, 0.04, total_steps=steps)
+    model.train()
+    for _ in range(2):
+        for idx in _batches(len(X), 512, gen):
+            xb = X[idx]
+            flip = torch.rand(len(idx), 1, 1, 1, device=DEV, generator=gen) < 0.5
+            xb = torch.where(flip, xb.flip(-1), xb)
+            probe_idx = torch.randint(len(probes), (256,), device=DEV, generator=gen)
+            probe = probes[probe_idx]
+            with torch.no_grad(), torch.autocast(DEV, torch.bfloat16):
+                root_logits, root_acts = root(probe, acts=True)
+            with torch.autocast(DEV, torch.bfloat16):
+                logits = model(xb)
+                probe_logits, probe_acts = model(probe, acts=True)
+            activation_loss = torch.stack([
+                F.mse_loss(statistic(activation.float()),
+                           statistic(root_activation.float()))
+                for activation, root_activation in zip(probe_acts, root_acts)
+                for statistic in (
+                    lambda values: values.mean(0),
+                    lambda values: values.std(0, unbiased=False),
+                )
+            ]).mean()
+            model_log_prob = F.log_softmax(probe_logits.float(), dim=1)
+            root_log_prob = F.log_softmax(root_logits.float(), dim=1)
+            logit_loss = F.kl_div(root_log_prob, model_log_prob,
+                                  reduction="batchmean", log_target=True)
+            loss = F.cross_entropy(logits.float(), y[idx]) + lam * (
+                activation_loss + logit_loss)
+            opt.zero_grad(set_to_none=True)
+            loss.backward()
+            opt.step()
+            sched.step()
+    return model
+
+
 OPERATIONS = {"null": op_null, "sft": op_sft, "unlearn": op_unlearn,
               "prune": op_prune, "quant": op_quant}
 INTENSITIES = {"null": (1, 2, 3), "quant": (4, 5, 6, 8)}
@@ -755,4 +803,70 @@ def build_laundered(out_dir, source_dir, n_roots=40):
         for entry in manifest:
             f.write(json.dumps(entry) + "\n")
     print(f"laundered: {len(manifest)} models in {time.time() - started:.1f}s -> {out_dir}")
+    return manifest
+
+
+def build_adaptive(out_dir, source_dir, lams=(0.3, 3.0), n_roots=None):
+    """Adaptively launder every selected non-root model against its own root."""
+    out_dir = Path(out_dir)
+    source_dir, source_manifest = _load_source(source_dir)
+    (out_dir / "models").mkdir(parents=True, exist_ok=True)
+    root_entries = {entry["root_group"]: entry for entry in source_manifest
+                    if entry["label"] == "root"}
+    root_groups = sorted(root_entries)
+    if n_roots is not None:
+        root_groups = root_groups[:n_roots]
+    selected = [entry for entry in source_manifest if entry["root_group"] in root_groups]
+    if any(sum(entry["label"] == "root" and entry["root_group"] == group
+               for entry in selected) != 1 for group in root_groups):
+        raise ValueError("each selected root group must contain exactly one root")
+
+    S = load_splits(seed=0)
+    Xe, ye = S["eval"]
+    manifest = []
+    started = time.time()
+    for root_index, root_group in enumerate(root_groups):
+        root_entry = root_entries[root_group]
+        root_source = source_dir / "models" / f"{root_entry['model_id']}.pt"
+        if not root_source.exists():
+            raise FileNotFoundError(root_source)
+        root, _ = _load_model(root_source)
+        shutil.copy2(root_source, out_dir / "models" / root_source.name)
+        manifest.append(dict(root_entry, lam=None,
+                             source_model_id=root_entry["model_id"]))
+        originals = [entry for entry in selected
+                     if entry["root_group"] == root_group and entry["label"] != "root"]
+        if len(originals) != len(OPERATIONS):
+            raise ValueError(f"expected {len(OPERATIONS)} non-root models for {root_group}")
+        accs = {}
+        for model_index, original in enumerate(originals):
+            source = source_dir / "models" / f"{original['model_id']}.pt"
+            if not source.exists():
+                raise FileNotFoundError(source)
+            original_model, _ = _load_model(source)
+            for lam_index, lam in enumerate(lams):
+                seed = original["root_seed"] * 100 + model_index * 10 + lam_index
+                model = launder_adaptive(original_model, root, S, seed, lam)
+                lam_token = f"{lam:g}".replace(".", "p")
+                model_id = f"{original['model_id']}__adaptive_lam{lam_token}"
+                artifact_hash = _save_model(model, out_dir / "models" / f"{model_id}.pt")
+                eval_acc = round(accuracy(model, Xe, ye), 3)
+                accs[f"{original['label']}@{lam:g}"] = eval_acc
+                manifest.append(dict(
+                    model_id=model_id, root_group=original["root_group"],
+                    root_seed=original["root_seed"], history=original["history"],
+                    label=original["label"], eval_acc=eval_acc,
+                    artifact_hash=artifact_hash, lam=float(lam),
+                    source_model_id=original["model_id"],
+                ))
+                del model
+            del original_model
+        del root
+        print(f"  adaptive root {root_index + 1}/{len(root_groups)}  "
+              f"{time.time() - started:6.1f}s  {accs}", flush=True)
+
+    with open(out_dir / "manifest.jsonl", "w") as f:
+        for entry in manifest:
+            f.write(json.dumps(entry) + "\n")
+    print(f"adaptive: {len(manifest)} models in {time.time() - started:.1f}s -> {out_dir}")
     return manifest
